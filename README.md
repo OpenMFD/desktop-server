@@ -1,5 +1,5 @@
-MFD Server
-==========
+OpenMFD Desktop Server
+======================
 
 This project is the MFD server that will be responsible for taking in any requests from the UI and running them on the
 host machine.
