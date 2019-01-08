@@ -35,7 +35,7 @@ $ pip install -r requirements.txt
 Run dev server:
 
 ```bash
-$ FLASK_ENV=development flask run --host=0.0.0.0 --port=6789
+$ FLASK_ENV=development FLASK_APP=mfdserver flask run --host=0.0.0.0 --port=6789
 ```
 
 Make sure you update the IP in the UI project with your local one so that it can connect if you're running it from a
