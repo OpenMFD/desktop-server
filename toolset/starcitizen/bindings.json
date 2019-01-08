@@ -1,0 +1,6626 @@
+{
+  "v_eject": {
+    "name": "v_eject",
+    "activation_mode": "double_tap",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "lalt+l",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_eject_cinematic": {
+    "name": "v_eject_cinematic",
+    "activation_mode": "double_tap",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "lalt+l",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_exit": {
+    "name": "v_exit",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Exit seat",
+    "device": {
+      "keyboard": "lalt+f",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "v_self_destruct": {
+    "name": "v_self_destruct",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Self Destruct",
+    "device": {
+      "keyboard": "lalt+backspace",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_cooler_throttle_up": {
+    "name": "v_cooler_throttle_up",
+    "activation_mode": null,
+    "label": null,
+    "description": "Increase Cooler Rate",
+    "device": {
+      "keyboard": "lalt+np_8",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_cooler_throttle_down": {
+    "name": "v_cooler_throttle_down",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decrease Cooler Rate",
+    "device": {
+      "keyboard": "lalt+np_7",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "spectate_enterpuremode": {
+    "name": "spectate_enterpuremode",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": null
+    }
+  },
+  "v_flightready": {
+    "name": "v_flightready",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH] Flight / Systems Ready",
+    "device": {
+      "keyboard": "8",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_doors_open_all": {
+    "name": "v_doors_open_all",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Open All Doors",
+    "device": {
+      "keyboard": "9",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_doors_close_all": {
+    "name": "v_doors_close_all",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Close All Doors",
+    "device": {
+      "keyboard": "9",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_doors_lock_all": {
+    "name": "v_doors_lock_all",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Lock All Doors",
+    "device": {
+      "keyboard": "0",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_doors_unlock_all": {
+    "name": "v_doors_unlock_all",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Unlock All Doors",
+    "device": {
+      "keyboard": "0",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_view_yaw_left": {
+    "name": "v_view_yaw_left",
+    "activation_mode": null,
+    "label": null,
+    "description": "Look left",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "v_view_yaw_right": {
+    "name": "v_view_yaw_right",
+    "activation_mode": null,
+    "label": null,
+    "description": "Look right",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "v_view_yaw": {
+    "name": "v_view_yaw",
+    "activation_mode": null,
+    "label": null,
+    "description": "Look left / right",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": "thumbrx",
+      "joystick": "x"
+    }
+  },
+  "v_view_yaw_mouse": {
+    "name": "v_view_yaw_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": "Look left / right",
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_x",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_view_yaw_absolute": {
+    "name": "v_view_yaw_absolute",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "HMD_Yaw",
+      "mouse": " ",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_view_pitch_up": {
+    "name": "v_view_pitch_up",
+    "activation_mode": null,
+    "label": null,
+    "description": "Look up",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "v_view_pitch_down": {
+    "name": "v_view_pitch_down",
+    "activation_mode": null,
+    "label": null,
+    "description": "Look down",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "v_view_pitch": {
+    "name": "v_view_pitch",
+    "activation_mode": null,
+    "label": null,
+    "description": "Look up / down",
+    "device": {
+      "keyboard": " ",
+      "mouse": " ",
+      "xboxpad": "thumbry",
+      "joystick": "y"
+    }
+  },
+  "v_view_pitch_mouse": {
+    "name": "v_view_pitch_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": "Look up / down",
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_y",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_view_pitch_absolute": {
+    "name": "v_view_pitch_absolute",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "HMD_Pitch",
+      "mouse": " ",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_view_roll_absolute": {
+    "name": "v_view_roll_absolute",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "HMD_Roll",
+      "mouse": " ",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_view_cycle_fwd": {
+    "name": "v_view_cycle_fwd",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Cycle camera view",
+    "device": {
+      "keyboard": "f4",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_view_cycle_internal_fwd": {
+    "name": "v_view_cycle_internal_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_view_option": {
+    "name": "v_view_option",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "f3",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": null
+    }
+  },
+  "v_view_mode": {
+    "name": "v_view_mode",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle camera orbit mode",
+    "device": {
+      "keyboard": "f3",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_view_zoom_in": {
+    "name": "v_view_zoom_in",
+    "activation_mode": null,
+    "label": null,
+    "description": "Zoom in (3rd person view)",
+    "device": {
+      "keyboard": "mwheel_up",
+      "mouse": "mwheel_up",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_view_zoom_out": {
+    "name": "v_view_zoom_out",
+    "activation_mode": null,
+    "label": null,
+    "description": "Zoom out (3rd person view)",
+    "device": {
+      "keyboard": "mwheel_down",
+      "mouse": "mwheel_down",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_view_interact": {
+    "name": "v_view_interact",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "triggerr_btn",
+      "joystick": " "
+    }
+  },
+  "v_view_freelook_mode": {
+    "name": "v_view_freelook_mode",
+    "activation_mode": "all",
+    "label": null,
+    "description": "Freelook (Toggle)",
+    "device": {
+      "keyboard": "z",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_view_dynamic_focus": {
+    "name": "v_view_dynamic_focus",
+    "activation_mode": null,
+    "label": null,
+    "description": "Dynamic zoom in and out",
+    "device": {
+      "keyboard": "maxis_z",
+      "mouse": "",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_view_dynamic_focus_in": {
+    "name": "v_view_dynamic_focus_in",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Dynamic zoom in",
+    "device": {
+      "keyboard": "mwheel_up",
+      "mouse": "",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_view_dynamic_focus_out": {
+    "name": "v_view_dynamic_focus_out",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Dynamic zoom out",
+    "device": {
+      "keyboard": "mwheel_down",
+      "mouse": "",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_view_look_behind": {
+    "name": "v_view_look_behind",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Look behind",
+    "device": {
+      "keyboard": "z",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_pitch_up": {
+    "name": "v_pitch_up",
+    "activation_mode": null,
+    "label": null,
+    "description": "Pitch up",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_pitch_down": {
+    "name": "v_pitch_down",
+    "activation_mode": null,
+    "label": null,
+    "description": "Pitch down",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_pitch": {
+    "name": "v_pitch",
+    "activation_mode": null,
+    "label": null,
+    "description": "Pitch",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": "thumbly",
+      "joystick": "y"
+    }
+  },
+  "v_pitch_mouse": {
+    "name": "v_pitch_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": "Pitch",
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_y",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_yaw_left": {
+    "name": "v_yaw_left",
+    "activation_mode": null,
+    "label": null,
+    "description": "Turn Left",
+    "device": {
+      "keyboard": "a",
+      "mouse": null,
+      "xboxpad": "thumbl_left",
+      "joystick": " "
+    }
+  },
+  "v_yaw_right": {
+    "name": "v_yaw_right",
+    "activation_mode": null,
+    "label": null,
+    "description": "Turn Right",
+    "device": {
+      "keyboard": "d",
+      "mouse": null,
+      "xboxpad": "thumbl_right",
+      "joystick": " "
+    }
+  },
+  "v_yaw": {
+    "name": "v_yaw",
+    "activation_mode": null,
+    "label": null,
+    "description": "Turn Left / Right",
+    "device": {
+      "keyboard": " ",
+      "mouse": " ",
+      "xboxpad": " ",
+      "joystick": "rotz"
+    }
+  },
+  "v_yaw_mouse": {
+    "name": "v_yaw_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": "Yaw",
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_x",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_toggle_relative_mouse_mode": {
+    "name": "v_toggle_relative_mouse_mode",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "Cycle mouse move mode",
+    "device": {
+      "keyboard": "lalt+comma",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_roll_left": {
+    "name": "v_roll_left",
+    "activation_mode": null,
+    "label": null,
+    "description": "Roll left",
+    "device": {
+      "keyboard": "q",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_roll_right": {
+    "name": "v_roll_right",
+    "activation_mode": null,
+    "label": null,
+    "description": "Roll right",
+    "device": {
+      "keyboard": "e",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_roll": {
+    "name": "v_roll",
+    "activation_mode": null,
+    "label": null,
+    "description": "Roll",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": "shoulderl+thumblx",
+      "joystick": "rotz"
+    }
+  },
+  "v_roll_mouse": {
+    "name": "v_roll_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": "Roll",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_toggle_yaw_roll_swap": {
+    "name": "v_toggle_yaw_roll_swap",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "Swap Yaw / Roll (Toggle)",
+    "device": {
+      "keyboard": "lalt+period",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_throttle_toggle_minmax": {
+    "name": "v_throttle_toggle_minmax",
+    "activation_mode": null,
+    "label": null,
+    "description": "Throttle min / max (Toggle)",
+    "device": {
+      "keyboard": "backspace",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_throttle_zero": {
+    "name": "v_throttle_zero",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Throttle zero",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_throttle_100": {
+    "name": "v_throttle_100",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Throttle max",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_throttle_up": {
+    "name": "v_throttle_up",
+    "activation_mode": null,
+    "label": null,
+    "description": "Throttle up",
+    "device": {
+      "keyboard": "w",
+      "mouse": null,
+      "xboxpad": "triggerr_btn",
+      "joystick": " "
+    }
+  },
+  "v_throttle_down": {
+    "name": "v_throttle_down",
+    "activation_mode": null,
+    "label": null,
+    "description": "Throttle down",
+    "device": {
+      "keyboard": "s",
+      "mouse": null,
+      "xboxpad": "triggerl_btn",
+      "joystick": " "
+    }
+  },
+  "v_throttle_abs": {
+    "name": "v_throttle_abs",
+    "activation_mode": null,
+    "label": null,
+    "description": "Throttle up / down (abs.)",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": null,
+      "joystick": "throttlez"
+    }
+  },
+  "v_throttle_rel": {
+    "name": "v_throttle_rel",
+    "activation_mode": null,
+    "label": null,
+    "description": "Throttle up / down (rel.)",
+    "device": {
+      "keyboard": " ",
+      "mouse": " ",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_brake": {
+    "name": "v_brake",
+    "activation_mode": null,
+    "label": null,
+    "description": "Brake",
+    "device": {
+      "keyboard": "x",
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": "button7"
+    }
+  },
+  "v_target_match_vel": {
+    "name": "v_target_match_vel",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Match target velocity",
+    "device": {
+      "keyboard": "m",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_ifcs_toggle_vector_decoupling": {
+    "name": "v_ifcs_toggle_vector_decoupling",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "Decoupled mode (Toggle)",
+    "device": {
+      "keyboard": "v",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_strafe_up": {
+    "name": "v_strafe_up",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe up",
+    "device": {
+      "keyboard": "space",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": "button9"
+    }
+  },
+  "v_strafe_down": {
+    "name": "v_strafe_down",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe down",
+    "device": {
+      "keyboard": "lctrl",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": "button10"
+    }
+  },
+  "v_strafe_vertical": {
+    "name": "v_strafe_vertical",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe up / down",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": "shoulderl+thumbry",
+      "joystick": " "
+    }
+  },
+  "v_strafe_left": {
+    "name": "v_strafe_left",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe left",
+    "device": {
+      "keyboard": "a",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": "hat1_left"
+    }
+  },
+  "v_strafe_right": {
+    "name": "v_strafe_right",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe right",
+    "device": {
+      "keyboard": "d",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": "hat1_right"
+    }
+  },
+  "v_strafe_lateral": {
+    "name": "v_strafe_lateral",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe left / right",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "shoulderl+thumbrx",
+      "joystick": " "
+    }
+  },
+  "v_strafe_forward": {
+    "name": "v_strafe_forward",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe forward",
+    "device": {
+      "keyboard": "lalt+w",
+      "mouse": null,
+      "xboxpad": "shoulderl+triggerr_btn",
+      "joystick": "hat1_up"
+    }
+  },
+  "v_strafe_back": {
+    "name": "v_strafe_back",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe back",
+    "device": {
+      "keyboard": "lalt+s",
+      "mouse": null,
+      "xboxpad": "shoulderl+triggerl_btn",
+      "joystick": "hat1_down"
+    }
+  },
+  "v_strafe_longitudinal": {
+    "name": "v_strafe_longitudinal",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe forward / back",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_ifcs_toggle_safeties": {
+    "name": "v_ifcs_toggle_safeties",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle IFCS safeties",
+    "device": {
+      "keyboard": "2",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_ifcs_toggle_gforce_safety": {
+    "name": "v_ifcs_toggle_gforce_safety",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "G-force safety (Toggle)",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_ifcs_toggle_comstab": {
+    "name": "v_ifcs_toggle_comstab",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "Command level stability (Toggle)",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_ifcs_toggle_esp": {
+    "name": "v_ifcs_toggle_esp",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "E.S.P. (Toggle)",
+    "device": {
+      "keyboard": "lalt+o",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_brake": {
+    "name": "v_decoupled_brake",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled spacebrake",
+    "device": {
+      "keyboard": "c",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_strafe_up": {
+    "name": "v_decoupled_strafe_up",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled strafe up",
+    "device": {
+      "keyboard": "space",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_strafe_down": {
+    "name": "v_decoupled_strafe_down",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled strafe down",
+    "device": {
+      "keyboard": "lctrl",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_strafe_vertical": {
+    "name": "v_decoupled_strafe_vertical",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled strafe up / down",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": "shoulderl+thumbry",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_strafe_left": {
+    "name": "v_decoupled_strafe_left",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled strafe left",
+    "device": {
+      "keyboard": "a",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_strafe_right": {
+    "name": "v_decoupled_strafe_right",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled strafe right",
+    "device": {
+      "keyboard": "d",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_strafe_lateral": {
+    "name": "v_decoupled_strafe_lateral",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled strafe left / right",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": "shoulderl+thumblx",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_strafe_forward": {
+    "name": "v_decoupled_strafe_forward",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled strafe forward",
+    "device": {
+      "keyboard": "w",
+      "mouse": null,
+      "xboxpad": "shoulderl+triggerr_btn",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_strafe_back": {
+    "name": "v_decoupled_strafe_back",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled strafe back",
+    "device": {
+      "keyboard": "s",
+      "mouse": null,
+      "xboxpad": "shoulderl+triggerl_btn",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_strafe_longitudinal": {
+    "name": "v_decoupled_strafe_longitudinal",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled strafe forward / back",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_yaw": {
+    "name": "v_decoupled_yaw",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled yaw",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "thumblx",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_yaw_left": {
+    "name": "v_decoupled_yaw_left",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled yaw left",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_yaw_right": {
+    "name": "v_decoupled_yaw_right",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled yaw right",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_pitch": {
+    "name": "v_decoupled_pitch",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled pitch",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": "thumbly",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_pitch_up": {
+    "name": "v_decoupled_pitch_up",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled pitch up",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_pitch_down": {
+    "name": "v_decoupled_pitch_down",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled pitch down",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_roll_left": {
+    "name": "v_decoupled_roll_left",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled roll left",
+    "device": {
+      "keyboard": "q",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_roll_right": {
+    "name": "v_decoupled_roll_right",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled roll right",
+    "device": {
+      "keyboard": "e",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_decoupled_roll": {
+    "name": "v_decoupled_roll",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decoupled roll",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "shoulderl+thumblx",
+      "joystick": " "
+    }
+  },
+  "v_afterburner": {
+    "name": "v_afterburner",
+    "activation_mode": "all",
+    "label": null,
+    "description": "Afterburner",
+    "device": {
+      "keyboard": "lshift",
+      "mouse": null,
+      "xboxpad": "a",
+      "joystick": "button8"
+    }
+  },
+  "v_boost": {
+    "name": "v_boost",
+    "activation_mode": "all",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "lshift",
+      "mouse": null,
+      "xboxpad": "thumbl",
+      "joystick": "button9"
+    }
+  },
+  "v_toggle_landing_system": {
+    "name": "v_toggle_landing_system",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Landing System (Toggle)",
+    "device": {
+      "keyboard": "n",
+      "mouse": null,
+      "xboxpad": "shoulderl+dpad_up",
+      "joystick": "button12"
+    }
+  },
+  "v_autoland": {
+    "name": "v_autoland",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Activate Autoland",
+    "device": {
+      "keyboard": "n",
+      "mouse": null,
+      "xboxpad": "shoulderl+dpad_up",
+      "joystick": "button12"
+    }
+  },
+  "v_toggle_qdrive_spooling": {
+    "name": "v_toggle_qdrive_spooling",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Quantum Travel System (Toggle)",
+    "device": {
+      "keyboard": "b",
+      "mouse": null,
+      "xboxpad": "shoulderl+dpad_right",
+      "joystick": " "
+    }
+  },
+  "v_toggle_qdrive_engagement": {
+    "name": "v_toggle_qdrive_engagement",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Quantum Drive",
+    "device": {
+      "keyboard": "b",
+      "mouse": null,
+      "xboxpad": "shoulderl+dpad_right",
+      "joystick": null
+    }
+  },
+  "v_toggle_docking_mode": {
+    "name": "v_toggle_docking_mode",
+    "activation_mode": "tap",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "n",
+      "mouse": null,
+      "xboxpad": "shoulderl+dpad_up",
+      "joystick": " "
+    }
+  },
+  "v_invoke_docking": {
+    "name": "v_invoke_docking",
+    "activation_mode": "delayed_hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "n",
+      "mouse": null,
+      "xboxpad": "y",
+      "joystick": " "
+    }
+  },
+  "v_aim_yaw": {
+    "name": "v_aim_yaw",
+    "activation_mode": null,
+    "label": null,
+    "description": "Aim left / right",
+    "device": {
+      "keyboard": " ",
+      "mouse": " ",
+      "xboxpad": "thumbrx",
+      "joystick": "x"
+    }
+  },
+  "v_aim_yaw_left": {
+    "name": "v_aim_yaw_left",
+    "activation_mode": null,
+    "label": null,
+    "description": "Aim left",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_aim_yaw_right": {
+    "name": "v_aim_yaw_right",
+    "activation_mode": null,
+    "label": null,
+    "description": "Aim right",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_aim_pitch": {
+    "name": "v_aim_pitch",
+    "activation_mode": null,
+    "label": null,
+    "description": "Aim up / down",
+    "device": {
+      "keyboard": " ",
+      "mouse": " ",
+      "xboxpad": "thumbry",
+      "joystick": "y"
+    }
+  },
+  "v_aim_pitch_up": {
+    "name": "v_aim_pitch_up",
+    "activation_mode": null,
+    "label": null,
+    "description": "Aim up",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_aim_pitch_down": {
+    "name": "v_aim_pitch_down",
+    "activation_mode": null,
+    "label": null,
+    "description": "Aim down",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_aim_yaw_mouse": {
+    "name": "v_aim_yaw_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": "Aim left / right",
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_x",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_aim_pitch_mouse": {
+    "name": "v_aim_pitch_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": "Aim up / down",
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_y",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_aim_snap": {
+    "name": "v_aim_snap",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Reset aim",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_couple_aim_to_move": {
+    "name": "v_couple_aim_to_move",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "Look Ahead",
+    "device": {
+      "keyboard": "lalt+m",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_toggle_mouse_aim_only": {
+    "name": "v_toggle_mouse_aim_only",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "Cycle mouse aim mode",
+    "device": {
+      "keyboard": "rshift",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_toggle_weapon_gimbal_lock": {
+    "name": "v_toggle_weapon_gimbal_lock",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "Gimbal lock",
+    "device": {
+      "keyboard": "lalt+j",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_toggle_computer_onoff": {
+    "name": "v_target_toggle_computer_onoff",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_target_reticle_focus": {
+    "name": "v_target_reticle_focus",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Reticle focus",
+    "device": {
+      "keyboard": "r",
+      "mouse": null,
+      "xboxpad": "dpad_left",
+      "joystick": "button11"
+    }
+  },
+  "v_target_cycle_all_fwd": {
+    "name": "v_target_cycle_all_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle all targets",
+    "device": {
+      "keyboard": "i",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_cycle_all_back": {
+    "name": "v_target_cycle_all_back",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle all targets (Back)",
+    "device": {
+      "keyboard": "k",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_cycle_friendly_fwd": {
+    "name": "v_target_cycle_friendly_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle friendly targets",
+    "device": {
+      "keyboard": "u",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_cycle_friendly_back": {
+    "name": "v_target_cycle_friendly_back",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle friendly targets (Back)",
+    "device": {
+      "keyboard": "j",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_toggle_pinned_focused": {
+    "name": "v_target_toggle_pinned_focused",
+    "activation_mode": null,
+    "label": null,
+    "description": "Pin focused target",
+    "device": {
+      "keyboard": "p",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_cycle_pinned_fwd": {
+    "name": "v_target_cycle_pinned_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle pinned targets",
+    "device": {
+      "keyboard": "o",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_cycle_pinned_back": {
+    "name": "v_target_cycle_pinned_back",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle pinned targets (Back)",
+    "device": {
+      "keyboard": "l",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_cycle_hostile_fwd": {
+    "name": "v_target_cycle_hostile_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle hostile targets",
+    "device": {
+      "keyboard": "y",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_cycle_hostile_back": {
+    "name": "v_target_cycle_hostile_back",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle hostile targets (Back)",
+    "device": {
+      "keyboard": "h",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_nearest_hostile": {
+    "name": "v_target_nearest_hostile",
+    "activation_mode": null,
+    "label": null,
+    "description": "Target nearest hostile",
+    "device": {
+      "keyboard": "t",
+      "mouse": null,
+      "xboxpad": "dpad_right",
+      "joystick": " "
+    }
+  },
+  "v_target_cycle_subitem_fwd": {
+    "name": "v_target_cycle_subitem_fwd",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Cycle Sub-Target",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_cycle_subitem_back": {
+    "name": "v_target_cycle_subitem_back",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Cycle Sub-Target (Back)",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_focus_root_entity": {
+    "name": "v_target_focus_root_entity",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Reset Sub-Target",
+    "device": {
+      "keyboard": "lalt+u",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_cycle_reticle_mode": {
+    "name": "v_target_cycle_reticle_mode",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Reticle mode (Toggle)",
+    "device": {
+      "keyboard": "lalt+k",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_head_tracking": {
+    "name": "v_target_head_tracking",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "Target focus",
+    "device": {
+      "keyboard": "lalt+r",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_target_trigger_scan": {
+    "name": "v_target_trigger_scan",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_target_cycle_component_fwd": {
+    "name": "v_target_cycle_component_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_target_cycle_component_back": {
+    "name": "v_target_cycle_component_back",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_target_cycle_component_group_fwd": {
+    "name": "v_target_cycle_component_group_fwd",
+    "activation_mode": "double_tap_nonblocking",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_target_cycle_component_group_back": {
+    "name": "v_target_cycle_component_group_back",
+    "activation_mode": "double_tap_nonblocking",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_target_deselect_component": {
+    "name": "v_target_deselect_component",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": ""
+    }
+  },
+  "v_toggle_mining_mode": {
+    "name": "v_toggle_mining_mode",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH] Mining Mode Toggle",
+    "device": {
+      "keyboard": "slash",
+      "mouse": null,
+      "xboxpad": "shoulderl+thumbr",
+      "joystick": " "
+    }
+  },
+  "v_toggle_scan_mode": {
+    "name": "v_toggle_scan_mode",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH] Scanning Mode Toggle",
+    "device": {
+      "keyboard": "tab",
+      "mouse": null,
+      "xboxpad": "dpad_up",
+      "joystick": " "
+    }
+  },
+  "v_invoke_ping": {
+    "name": "v_invoke_ping",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "[PH] Scanning Radar Ping",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": "shoulderr",
+      "joystick": "button1"
+    }
+  },
+  "v_target_reticle_scan_target": {
+    "name": "v_target_reticle_scan_target",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_inc_ping_focus_angle": {
+    "name": "v_inc_ping_focus_angle",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Scanning Increase Radar Angle",
+    "device": {
+      "keyboard": "lalt+mwheel_up",
+      "mouse": null,
+      "xboxpad": "x",
+      "joystick": "button3"
+    }
+  },
+  "v_dec_ping_focus_angle": {
+    "name": "v_dec_ping_focus_angle",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Scanning Decrease Radar Angle",
+    "device": {
+      "keyboard": "lalt+mwheel_down",
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": "button4"
+    }
+  },
+  "v_toggle_mining_laser_fire": {
+    "name": "v_toggle_mining_laser_fire",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Fire Mining Laser (Toggle)",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": "shoulderr",
+      "joystick": "button1"
+    }
+  },
+  "v_toggle_mining_laser_type": {
+    "name": "v_toggle_mining_laser_type",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Switch Mining Laser (Toggle)",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse2",
+      "xboxpad": "thumbr",
+      "joystick": "button2"
+    }
+  },
+  "v_increase_mining_throttle": {
+    "name": "v_increase_mining_throttle",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH] Increase Mining Laser Power",
+    "device": {
+      "keyboard": "mwheel_up",
+      "mouse": "mwheel_up",
+      "xboxpad": "x",
+      "joystick": "button3"
+    }
+  },
+  "v_decrease_mining_throttle": {
+    "name": "v_decrease_mining_throttle",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Decrease Mining Laser Power",
+    "device": {
+      "keyboard": "mwheel_down",
+      "mouse": "mwheel_down",
+      "xboxpad": "b",
+      "joystick": "button4"
+    }
+  },
+  "v_mining_throttle": {
+    "name": "v_mining_throttle",
+    "activation_mode": null,
+    "label": null,
+    "description": "[PH]\u00a0Increase / Decrease Mining Laser Power",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": " "
+    }
+  },
+  "v_attack1_group1": {
+    "name": "v_attack1_group1",
+    "activation_mode": "all",
+    "label": null,
+    "description": "Fire Weapon Group 1",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": "shoulderr",
+      "joystick": "button1"
+    }
+  },
+  "v_attack1_group2": {
+    "name": "v_attack1_group2",
+    "activation_mode": "all",
+    "label": null,
+    "description": "Fire Weapon Group 2",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse2",
+      "xboxpad": "thumbr",
+      "joystick": "button2"
+    }
+  },
+  "v_weapon_cycle_ammo_fwd": {
+    "name": "v_weapon_cycle_ammo_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle Weapon Ammo",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_weapon_cycle_ammo_back": {
+    "name": "v_weapon_cycle_ammo_back",
+    "activation_mode": null,
+    "label": null,
+    "description": "Cycle Weapon Ammo\u00a0(Back)",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_turret_gyromode": {
+    "name": "v_turret_gyromode",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH] Turret Gyro Stabilization (Toggle)",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "a",
+      "joystick": " "
+    }
+  },
+  "v_weapon_arm_missile": {
+    "name": "v_weapon_arm_missile",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Acquire missile lock",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse3",
+      "xboxpad": "x",
+      "joystick": "button4"
+    }
+  },
+  "v_weapon_unarm_missile": {
+    "name": "v_weapon_unarm_missile",
+    "activation_mode": "tap",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_weapon_launch_missile": {
+    "name": "v_weapon_launch_missile",
+    "activation_mode": "all",
+    "label": null,
+    "description": "Launch missile",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse3",
+      "xboxpad": "x",
+      "joystick": "button4"
+    }
+  },
+  "v_weapon_launch_countermeasure": {
+    "name": "v_weapon_launch_countermeasure",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Launch countermeasure",
+    "device": {
+      "keyboard": "g",
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": "button3"
+    }
+  },
+  "v_weapon_launch_countermeasure_cinematic": {
+    "name": "v_weapon_launch_countermeasure_cinematic",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "g",
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": "button3"
+    }
+  },
+  "v_weapon_cycle_countermeasure_fwd": {
+    "name": "v_weapon_cycle_countermeasure_fwd",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Cycle countermeasure ammo",
+    "device": {
+      "keyboard": "1",
+      "mouse": null,
+      "xboxpad": "dpad_down",
+      "joystick": "button5"
+    }
+  },
+  "v_weapon_cycle_countermeasure_back": {
+    "name": "v_weapon_cycle_countermeasure_back",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Cycle countermeasure ammo (Back)",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_shield_raise_level_forward": {
+    "name": "v_shield_raise_level_forward",
+    "activation_mode": null,
+    "label": null,
+    "description": "Shield raise level front",
+    "device": {
+      "keyboard": "np_8",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_shield_raise_level_back": {
+    "name": "v_shield_raise_level_back",
+    "activation_mode": null,
+    "label": null,
+    "description": "Shield raise level back",
+    "device": {
+      "keyboard": "np_2",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_shield_raise_level_left": {
+    "name": "v_shield_raise_level_left",
+    "activation_mode": null,
+    "label": null,
+    "description": "Shield raise level left",
+    "device": {
+      "keyboard": "np_4",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_shield_raise_level_right": {
+    "name": "v_shield_raise_level_right",
+    "activation_mode": null,
+    "label": null,
+    "description": "Shield raise level right",
+    "device": {
+      "keyboard": "np_6",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_shield_raise_level_up": {
+    "name": "v_shield_raise_level_up",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Shield raise level top",
+    "device": {
+      "keyboard": "np_9",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_shield_raise_level_down": {
+    "name": "v_shield_raise_level_down",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Shield raise level bottom",
+    "device": {
+      "keyboard": "np_7",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_shield_reset_level": {
+    "name": "v_shield_reset_level",
+    "activation_mode": null,
+    "label": null,
+    "description": "Shield reset levels",
+    "device": {
+      "keyboard": "np_5",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_weapon_toggle_ai": {
+    "name": "v_weapon_toggle_ai",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "slash",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_power_focus_group_1": {
+    "name": "v_power_focus_group_1",
+    "activation_mode": null,
+    "label": null,
+    "description": "Power preset 1 (increase & decrease others)",
+    "device": {
+      "keyboard": "f5",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_power_focus_group_2": {
+    "name": "v_power_focus_group_2",
+    "activation_mode": null,
+    "label": null,
+    "description": "Power preset 2 (increase & decrease others)",
+    "device": {
+      "keyboard": "f6",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_power_focus_group_3": {
+    "name": "v_power_focus_group_3",
+    "activation_mode": null,
+    "label": null,
+    "description": "Power preset 3 (increase & decrease others)",
+    "device": {
+      "keyboard": "f7",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_power_reset_focus": {
+    "name": "v_power_reset_focus",
+    "activation_mode": null,
+    "label": null,
+    "description": "Reset Power Distribution",
+    "device": {
+      "keyboard": "f8",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_power_throttle_up": {
+    "name": "v_power_throttle_up",
+    "activation_mode": null,
+    "label": null,
+    "description": "Increase Power",
+    "device": {
+      "keyboard": "lalt+np_5",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_power_throttle_down": {
+    "name": "v_power_throttle_down",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decrease Power",
+    "device": {
+      "keyboard": "lalt+np_4",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_power_throttle_max": {
+    "name": "v_power_throttle_max",
+    "activation_mode": "double_tap",
+    "label": null,
+    "description": "Increase Power Max",
+    "device": {
+      "keyboard": "lalt+np_5",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_power_throttle_min": {
+    "name": "v_power_throttle_min",
+    "activation_mode": "double_tap",
+    "label": null,
+    "description": "Decrease Power Min",
+    "device": {
+      "keyboard": "lalt+np_4",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_power_toggle_group_1": {
+    "name": "v_power_toggle_group_1",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "Power preset 1 (Toggle)",
+    "device": {
+      "keyboard": "7",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_power_toggle_group_2": {
+    "name": "v_power_toggle_group_2",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "Power preset 2 (Toggle)",
+    "device": {
+      "keyboard": "6",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_power_toggle_group_3": {
+    "name": "v_power_toggle_group_3",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": "Power preset 3 (Toggle)",
+    "device": {
+      "keyboard": "4",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_power_toggle": {
+    "name": "v_power_toggle",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Power (Toggle)",
+    "device": {
+      "keyboard": "5",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_radar_toggle_onoff": {
+    "name": "v_radar_toggle_onoff",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_radar_toggle_active_or_passive": {
+    "name": "v_radar_toggle_active_or_passive",
+    "activation_mode": null,
+    "label": null,
+    "description": "Personal Identification Broadcast System (Toggle)",
+    "device": {
+      "keyboard": "period",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_radar_cycle_mode_fwd": {
+    "name": "v_radar_cycle_mode_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_radar_cycle_mode_back": {
+    "name": "v_radar_cycle_mode_back",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_radar_cycle_zoom_fwd": {
+    "name": "v_radar_cycle_zoom_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": "Radar cycle range",
+    "device": {
+      "keyboard": "comma",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_radar_cycle_zoom_back": {
+    "name": "v_radar_cycle_zoom_back",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_radar_cycle_focus_fwd": {
+    "name": "v_radar_cycle_focus_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_radar_cycle_focus_back": {
+    "name": "v_radar_cycle_focus_back",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_radar_toggle_view_focus": {
+    "name": "v_radar_toggle_view_focus",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "mobiglas": {
+    "name": "mobiglas",
+    "activation_mode": "press",
+    "label": null,
+    "description": "MobiGlas",
+    "device": {
+      "keyboard": "f1",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "toggle_ar_mode": {
+    "name": "toggle_ar_mode",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": null
+    }
+  },
+  "v_hud_open_scoreboard": {
+    "name": "v_hud_open_scoreboard",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Scoreboard",
+    "device": {
+      "keyboard": "f1",
+      "mouse": null,
+      "xboxpad": "back",
+      "joystick": " "
+    }
+  },
+  "v_hud_interact_toggle": {
+    "name": "v_hud_interact_toggle",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "v_hud_cycle_mode_fwd": {
+    "name": "v_hud_cycle_mode_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_hud_cycle_mode_back": {
+    "name": "v_hud_cycle_mode_back",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_hud_focused_cycle_mode_fwd": {
+    "name": "v_hud_focused_cycle_mode_fwd",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "triggerr_btn",
+      "joystick": " "
+    }
+  },
+  "v_hud_focused_cycle_mode_back": {
+    "name": "v_hud_focused_cycle_mode_back",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "triggerl_btn",
+      "joystick": " "
+    }
+  },
+  "v_hud_left_panel_up": {
+    "name": "v_hud_left_panel_up",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_hud_left_panel_down": {
+    "name": "v_hud_left_panel_down",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_hud_left_panel_left": {
+    "name": "v_hud_left_panel_left",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_hud_left_panel_right": {
+    "name": "v_hud_left_panel_right",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_hud_confirm": {
+    "name": "v_hud_confirm",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_hud_cancel": {
+    "name": "v_hud_cancel",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_hud_stick_x": {
+    "name": "v_hud_stick_x",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": ""
+    }
+  },
+  "v_hud_stick_y": {
+    "name": "v_hud_stick_y",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": ""
+    }
+  },
+  "v_comm_open_chat": {
+    "name": "v_comm_open_chat",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_comm_show_chat": {
+    "name": "v_comm_show_chat",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_comm_open_precanned": {
+    "name": "v_comm_open_precanned",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_comm_select_precanned_1": {
+    "name": "v_comm_select_precanned_1",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_comm_select_precanned_2": {
+    "name": "v_comm_select_precanned_2",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_comm_select_precanned_3": {
+    "name": "v_comm_select_precanned_3",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_comm_select_precanned_4": {
+    "name": "v_comm_select_precanned_4",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_comm_select_precanned_5": {
+    "name": "v_comm_select_precanned_5",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "v_starmap": {
+    "name": "v_starmap",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Map",
+    "device": {
+      "keyboard": "f2",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_lights": {
+    "name": "v_lights",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Headlights (Toggle)",
+    "device": {
+      "keyboard": "3",
+      "mouse": null,
+      "xboxpad": "shoulderl+dpad_left",
+      "joystick": " "
+    }
+  },
+  "v_toggle_running_lights": {
+    "name": "v_toggle_running_lights",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_toggle_cabin_lights": {
+    "name": "v_toggle_cabin_lights",
+    "activation_mode": "smart_toggle",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "moveleft": {
+    "name": "moveleft",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Move Left",
+    "device": {
+      "keyboard": "a",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "moveright": {
+    "name": "moveright",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Move Right",
+    "device": {
+      "keyboard": "d",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "moveforward": {
+    "name": "moveforward",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Move Forward",
+    "device": {
+      "keyboard": "w",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "moveback": {
+    "name": "moveback",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Move Backwards",
+    "device": {
+      "keyboard": "s",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "rotateyaw": {
+    "name": "rotateyaw",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "maxis_x",
+      "mouse": "maxis_x",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "rotatepitch": {
+    "name": "rotatepitch",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "maxis_y",
+      "mouse": "maxis_y",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "xi_movex": {
+    "name": "xi_movex",
+    "activation_mode": null,
+    "label": null,
+    "description": "Move Left / Right",
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumblx",
+      "joystick": " "
+    }
+  },
+  "xi_movey": {
+    "name": "xi_movey",
+    "activation_mode": null,
+    "label": null,
+    "description": "Move Forward / Backward",
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumbly",
+      "joystick": " "
+    }
+  },
+  "xi_rotateyaw": {
+    "name": "xi_rotateyaw",
+    "activation_mode": null,
+    "label": null,
+    "description": "Look (Yaw)",
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumbrx",
+      "joystick": " "
+    }
+  },
+  "xi_rotatepitch": {
+    "name": "xi_rotatepitch",
+    "activation_mode": null,
+    "label": null,
+    "description": "Look (Pitch)",
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumbry",
+      "joystick": " "
+    }
+  },
+  "jump": {
+    "name": "jump",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Jump",
+    "device": {
+      "keyboard": "space",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "crouch": {
+    "name": "crouch",
+    "activation_mode": "hold_toggle",
+    "label": null,
+    "description": "Crouch",
+    "device": {
+      "keyboard": "lctrl",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "xi_jump": {
+    "name": "xi_jump",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Jump",
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "a",
+      "joystick": null
+    }
+  },
+  "xi_crouch": {
+    "name": "xi_crouch",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Crouch",
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": null
+    }
+  },
+  "prone": {
+    "name": "prone",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Prone",
+    "device": {
+      "keyboard": "x",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "sprint": {
+    "name": "sprint",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Sprint",
+    "device": {
+      "keyboard": "lshift",
+      "mouse": null,
+      "xboxpad": "thumbl",
+      "joystick": " "
+    }
+  },
+  "walk": {
+    "name": "walk",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Walk",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "leanleft": {
+    "name": "leanleft",
+    "activation_mode": null,
+    "label": null,
+    "description": "Lean Left",
+    "device": {
+      "keyboard": "q",
+      "mouse": null,
+      "xboxpad": "shoulderl+thumbl_left",
+      "joystick": " "
+    }
+  },
+  "leanright": {
+    "name": "leanright",
+    "activation_mode": null,
+    "label": null,
+    "description": "Lean Right",
+    "device": {
+      "keyboard": "e",
+      "mouse": null,
+      "xboxpad": "shoulderl+thumbl_right",
+      "joystick": " "
+    }
+  },
+  "toggle_lowered": {
+    "name": "toggle_lowered",
+    "activation_mode": "tap",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": null
+    }
+  },
+  "attack1": {
+    "name": "attack1",
+    "activation_mode": "all",
+    "label": null,
+    "description": "Primary Attack",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": "triggerr_btn",
+      "joystick": " "
+    }
+  },
+  "weapon_melee": {
+    "name": "weapon_melee",
+    "activation_mode": null,
+    "label": null,
+    "description": "Melee Attack",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse3",
+      "xboxpad": "thumbr",
+      "joystick": " "
+    }
+  },
+  "grenade": {
+    "name": "grenade",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Throw Item",
+    "device": {
+      "keyboard": "g",
+      "mouse": null,
+      "xboxpad": "shoulderr",
+      "joystick": " "
+    }
+  },
+  "zoom": {
+    "name": "zoom",
+    "activation_mode": "hold_toggle",
+    "label": null,
+    "description": "Aim Down Sight",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse2",
+      "xboxpad": "triggerl_btn",
+      "joystick": " "
+    }
+  },
+  "zoom_out": {
+    "name": "zoom_out",
+    "activation_mode": null,
+    "label": null,
+    "description": "Zoom Out (ADS)",
+    "device": {
+      "keyboard": "mwheel_down",
+      "mouse": "mwheel_down",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "zoom_in": {
+    "name": "zoom_in",
+    "activation_mode": null,
+    "label": null,
+    "description": "Zoom In (ADS)",
+    "device": {
+      "keyboard": "mwheel_up",
+      "mouse": "mwheel_up",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "zoom_in_out": {
+    "name": "zoom_in_out",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Zoom In / Out (ADS)",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "triggerl_btn+dpad_up",
+      "joystick": " "
+    }
+  },
+  "selectpistol": {
+    "name": "selectpistol",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Select Sidearm",
+    "device": {
+      "keyboard": "1",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "selectprimary": {
+    "name": "selectprimary",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Select Primary Weapon",
+    "device": {
+      "keyboard": "2",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "selectsecondary": {
+    "name": "selectsecondary",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Select Secondary Weapon",
+    "device": {
+      "keyboard": "3",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "selectgadget": {
+    "name": "selectgadget",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Select Gadget",
+    "device": {
+      "keyboard": "4",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "selectMeleeWeapon": {
+    "name": "selectMeleeWeapon",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "5",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "selectUtilityItem": {
+    "name": "selectUtilityItem",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH] Select Contract Item",
+    "device": {
+      "keyboard": "6",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "nextitem": {
+    "name": "nextitem",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "prevItem": {
+    "name": "prevItem",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "nextweapon": {
+    "name": "nextweapon",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Next Weapon",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "dpad_down",
+      "joystick": " "
+    }
+  },
+  "prevweapon": {
+    "name": "prevweapon",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Previous Weapon",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "reload": {
+    "name": "reload",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Reload",
+    "device": {
+      "keyboard": "r",
+      "mouse": null,
+      "xboxpad": "x",
+      "joystick": " "
+    }
+  },
+  "holster": {
+    "name": "holster",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Holster Weapon",
+    "device": {
+      "keyboard": "n",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "drop": {
+    "name": "drop",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "o",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "inspect": {
+    "name": "inspect",
+    "activation_mode": "tap",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "i",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "stabilize": {
+    "name": "stabilize",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Hold Breath (ADS)",
+    "device": {
+      "keyboard": "lshift",
+      "mouse": null,
+      "xboxpad": "triggerl_btn+thumbl",
+      "joystick": " "
+    }
+  },
+  "weapon_change_firemode": {
+    "name": "weapon_change_firemode",
+    "activation_mode": null,
+    "label": null,
+    "description": "Change Fire Mode",
+    "device": {
+      "keyboard": "c",
+      "mouse": null,
+      "xboxpad": "shoulderl+dpad_up",
+      "joystick": " "
+    }
+  },
+  "fixed_speed_increment": {
+    "name": "fixed_speed_increment",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Default Movement Speed Increase",
+    "device": {
+      "keyboard": "mwheel_up",
+      "mouse": "mwheel_up",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "fixed_speed_decrement": {
+    "name": "fixed_speed_decrement",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Default Movement Speed Decrease",
+    "device": {
+      "keyboard": "mwheel_down",
+      "mouse": "mwheel_down",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "use": {
+    "name": "use",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "f",
+      "mouse": null,
+      "xboxpad": "y",
+      "joystick": " "
+    }
+  },
+  "useAttachmentBottom": {
+    "name": "useAttachmentBottom",
+    "activation_mode": "all",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "useAttachmentTop": {
+    "name": "useAttachmentTop",
+    "activation_mode": "all",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "toggle_flashlight": {
+    "name": "toggle_flashlight",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Flashlight (Toggle)",
+    "device": {
+      "keyboard": "t",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "combatheal": {
+    "name": "combatheal",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Heal",
+    "device": {
+      "keyboard": "v",
+      "mouse": null,
+      "xboxpad": "dpad_left",
+      "joystick": " "
+    }
+  },
+  "combathealtarget": {
+    "name": "combathealtarget",
+    "activation_mode": "delayed_hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "v",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "refillgastank": {
+    "name": "refillgastank",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "[PH] Refill Oxygen",
+    "device": {
+      "keyboard": "b",
+      "mouse": null,
+      "xboxpad": "dpad_right",
+      "joystick": " "
+    }
+  },
+  "visor_next_mode": {
+    "name": "visor_next_mode",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": null
+    }
+  },
+  "visor_prev_mode": {
+    "name": "visor_prev_mode",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": null
+    }
+  },
+  "selectitem": {
+    "name": "selectitem",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": "a",
+      "joystick": null
+    }
+  },
+  "cancelselect": {
+    "name": "cancelselect",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse2",
+      "xboxpad": "b",
+      "joystick": null
+    }
+  },
+  "thirdperson": {
+    "name": "thirdperson",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Third Person View (Toggle)",
+    "device": {
+      "keyboard": "f4",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "toggle_cursor_input": {
+    "name": "toggle_cursor_input",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "back",
+      "joystick": null
+    }
+  },
+  "free_thirdperson_camera": {
+    "name": "free_thirdperson_camera",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Third Person Free View (Toggle)",
+    "device": {
+      "keyboard": "z",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "pan_thirdperson_up": {
+    "name": "pan_thirdperson_up",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "up",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "pan_thirdperson_down": {
+    "name": "pan_thirdperson_down",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "down",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "break_conversation_effects": {
+    "name": "break_conversation_effects",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "thumbl",
+      "joystick": null
+    }
+  },
+  "hmd_rotateyaw": {
+    "name": "hmd_rotateyaw",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "hmd_rotatepitch": {
+    "name": "hmd_rotatepitch",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "hmd_rotateroll": {
+    "name": "hmd_rotateroll",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "pl_hud_open_scoreboard": {
+    "name": "pl_hud_open_scoreboard",
+    "activation_mode": null,
+    "label": null,
+    "description": "Scoreboard",
+    "device": {
+      "keyboard": "f1",
+      "mouse": null,
+      "xboxpad": "back",
+      "joystick": " "
+    }
+  },
+  "pl_hud_confirm": {
+    "name": "pl_hud_confirm",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "a",
+      "joystick": null
+    }
+  },
+  "ar_mode_scroll_action_up": {
+    "name": "ar_mode_scroll_action_up",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": "mwheel_up",
+      "xboxpad": "dpad_up",
+      "joystick": null
+    }
+  },
+  "ar_mode_scroll_action_down": {
+    "name": "ar_mode_scroll_action_down",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": "mwheel_down",
+      "xboxpad": "dpad_down",
+      "joystick": null
+    }
+  },
+  "shop_camera_zoom_in": {
+    "name": "shop_camera_zoom_in",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": "mwheel_up",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "shop_camera_zoom_out": {
+    "name": "shop_camera_zoom_out",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": "mwheel_down",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "shop_camera_mouseyaw": {
+    "name": "shop_camera_mouseyaw",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_x",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "shop_camera_mousepitch": {
+    "name": "shop_camera_mousepitch",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_y",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "port_modification_select": {
+    "name": "port_modification_select",
+    "activation_mode": null,
+    "label": null,
+    "description": "Port Modification Interact",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": "triggerr_btn",
+      "joystick": " "
+    }
+  },
+  "force_respawn": {
+    "name": "force_respawn",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Force Re-spawn (E.V.A. / On Foot)",
+    "device": {
+      "keyboard": "lalt+backspace",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "prone_rollleft": {
+    "name": "prone_rollleft",
+    "activation_mode": null,
+    "label": null,
+    "description": "Roll Left (while Prone)",
+    "device": {
+      "keyboard": "a",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "prone_rollright": {
+    "name": "prone_rollright",
+    "activation_mode": null,
+    "label": null,
+    "description": "Roll Right (while Prone)",
+    "device": {
+      "keyboard": "d",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "eva_view_yaw_left": {
+    "name": "eva_view_yaw_left",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "View Left",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_view_yaw_right": {
+    "name": "eva_view_yaw_right",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "View Right",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_view_yaw": {
+    "name": "eva_view_yaw",
+    "activation_mode": null,
+    "label": null,
+    "description": "View Left/Right",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": "thumbrx",
+      "joystick": " "
+    }
+  },
+  "eva_view_yaw_mouse": {
+    "name": "eva_view_yaw_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": "View Left/Right",
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_x",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "eva_view_pitch_up": {
+    "name": "eva_view_pitch_up",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "View Up",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": ""
+    }
+  },
+  "eva_view_pitch_down": {
+    "name": "eva_view_pitch_down",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "View Down",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_view_pitch": {
+    "name": "eva_view_pitch",
+    "activation_mode": null,
+    "label": null,
+    "description": "View Up/Down",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": "thumbry",
+      "joystick": " "
+    }
+  },
+  "eva_view_pitch_mouse": {
+    "name": "eva_view_pitch_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": "View Up/Down",
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_y",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "eva_pitch_up": {
+    "name": "eva_pitch_up",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Pitch Up",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_pitch_down": {
+    "name": "eva_pitch_down",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Pitch Down",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_pitch": {
+    "name": "eva_pitch",
+    "activation_mode": null,
+    "label": null,
+    "description": "Pitch Up/Down",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_yaw_left": {
+    "name": "eva_yaw_left",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Yaw Left",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_yaw_right": {
+    "name": "eva_yaw_right",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Yaw Right",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_yaw": {
+    "name": "eva_yaw",
+    "activation_mode": null,
+    "label": null,
+    "description": "Yaw Left/Right",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_roll_left": {
+    "name": "eva_roll_left",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Roll Left",
+    "device": {
+      "keyboard": "q",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_roll_right": {
+    "name": "eva_roll_right",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Roll Right",
+    "device": {
+      "keyboard": "e",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_roll": {
+    "name": "eva_roll",
+    "activation_mode": null,
+    "label": null,
+    "description": "Roll Left/Right",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": "shoulderl+thumblx",
+      "joystick": " "
+    }
+  },
+  "eva_strafe_up": {
+    "name": "eva_strafe_up",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Strafe Up",
+    "device": {
+      "keyboard": "space",
+      "mouse": null,
+      "xboxpad": "a",
+      "joystick": " "
+    }
+  },
+  "eva_strafe_down": {
+    "name": "eva_strafe_down",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Strafe Down",
+    "device": {
+      "keyboard": "lctrl",
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": " "
+    }
+  },
+  "eva_strafe_vertical": {
+    "name": "eva_strafe_vertical",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe Up/Down",
+    "device": {
+      "keyboard": " ",
+      "mouse": " ",
+      "xboxpad": "shoulderl+thumbry",
+      "joystick": " "
+    }
+  },
+  "eva_strafe_left": {
+    "name": "eva_strafe_left",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Strafe Left",
+    "device": {
+      "keyboard": "a",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_strafe_right": {
+    "name": "eva_strafe_right",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Strafe Right",
+    "device": {
+      "keyboard": "d",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_strafe_lateral": {
+    "name": "eva_strafe_lateral",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe Left/Right",
+    "device": {
+      "keyboard": " ",
+      "mouse": " ",
+      "xboxpad": "thumblx",
+      "joystick": " "
+    }
+  },
+  "eva_strafe_forward": {
+    "name": "eva_strafe_forward",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Strafe Forward",
+    "device": {
+      "keyboard": "w",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_strafe_back": {
+    "name": "eva_strafe_back",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Strafe Backward",
+    "device": {
+      "keyboard": "s",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "eva_strafe_longitudinal": {
+    "name": "eva_strafe_longitudinal",
+    "activation_mode": null,
+    "label": null,
+    "description": "Strafe Forward/Backward",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "thumbly",
+      "joystick": " "
+    }
+  },
+  "eva_brake": {
+    "name": "eva_brake",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Brake",
+    "device": {
+      "keyboard": "x",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": " "
+    }
+  },
+  "eva_boost": {
+    "name": "eva_boost",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "Boost",
+    "device": {
+      "keyboard": "lshift",
+      "mouse": null,
+      "xboxpad": "thumbl",
+      "joystick": " "
+    }
+  },
+  "eva_toggle_headlook_mode": {
+    "name": "eva_toggle_headlook_mode",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Freelook (Toggle)",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "v_horn": {
+    "name": "v_horn",
+    "activation_mode": null,
+    "label": null,
+    "description": "Horn",
+    "device": {
+      "keyboard": "c",
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": "button8"
+    }
+  },
+  "v_toggle_cursor_input": {
+    "name": "v_toggle_cursor_input",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": null
+    }
+  },
+  "v_move_forward": {
+    "name": "v_move_forward",
+    "activation_mode": null,
+    "label": null,
+    "description": "Drive Forward",
+    "device": {
+      "keyboard": "w",
+      "mouse": null,
+      "xboxpad": "triggerr_btn",
+      "joystick": " "
+    }
+  },
+  "v_move_back": {
+    "name": "v_move_back",
+    "activation_mode": null,
+    "label": null,
+    "description": "Drive Backward",
+    "device": {
+      "keyboard": "s",
+      "mouse": null,
+      "xboxpad": "triggerl_btn",
+      "joystick": " "
+    }
+  },
+  "v_move": {
+    "name": "v_move",
+    "activation_mode": null,
+    "label": null,
+    "description": "Drive Forward / Backward",
+    "device": {
+      "keyboard": null,
+      "mouse": " ",
+      "xboxpad": " ",
+      "joystick": "slider1"
+    }
+  },
+  "v_attack1": {
+    "name": "v_attack1",
+    "activation_mode": "all",
+    "label": null,
+    "description": "Primary Fire",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": "shoulderr",
+      "joystick": "button1"
+    }
+  },
+  "v_attack2": {
+    "name": "v_attack2",
+    "activation_mode": "all",
+    "label": null,
+    "description": "Secondary Fire",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse2",
+      "xboxpad": "thumbr",
+      "joystick": "button2"
+    }
+  },
+  "flymode": {
+    "name": "flymode",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "f3",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flymode_strafe_up": {
+    "name": "flymode_strafe_up",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "space",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flymode_strafe_down": {
+    "name": "flymode_strafe_down",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "lctrl",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flymode_roll_left": {
+    "name": "flymode_roll_left",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "q",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flymode_roll_right": {
+    "name": "flymode_roll_right",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "e",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "godmode": {
+    "name": "godmode",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "f9",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "toggleaidebugdraw": {
+    "name": "toggleaidebugdraw",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "f11",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ai_DebugCenterViewAgent": {
+    "name": "ai_DebugCenterViewAgent",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_divide",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "togglepdrawhelpers": {
+    "name": "togglepdrawhelpers",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "f10",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ulammo": {
+    "name": "ulammo",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "mannequin_debugai": {
+    "name": "mannequin_debugai",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_multiply",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "pl_result_state_debug_target": {
+    "name": "pl_result_state_debug_target",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_period",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "v_IFCS_A": {
+    "name": "v_IFCS_A",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "rctrl+a",
+      "mouse": null,
+      "xboxpad": "a",
+      "joystick": null
+    }
+  },
+  "v_IFCS_B": {
+    "name": "v_IFCS_B",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "rctrl+b",
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": null
+    }
+  },
+  "v_IFCS_X": {
+    "name": "v_IFCS_X",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "rctrl+x",
+      "mouse": null,
+      "xboxpad": "x",
+      "joystick": null
+    }
+  },
+  "v_IFCS_Y": {
+    "name": "v_IFCS_Y",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "rctrl+y",
+      "mouse": null,
+      "xboxpad": "y",
+      "joystick": null
+    }
+  },
+  "spectate_next_target": {
+    "name": "spectate_next_target",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Target (Next)",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse2",
+      "xboxpad": "shoulderr",
+      "joystick": "button1"
+    }
+  },
+  "spectate_prev_target": {
+    "name": "spectate_prev_target",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Target (Previous)",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": "shoulderl",
+      "joystick": "button2"
+    }
+  },
+  "spectate_toggle_lock_target": {
+    "name": "spectate_toggle_lock_target",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Lock Target",
+    "device": {
+      "keyboard": "y",
+      "mouse": null,
+      "xboxpad": "y",
+      "joystick": " "
+    }
+  },
+  "spectate_zoom": {
+    "name": "spectate_zoom",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Zoom",
+    "device": {
+      "keyboard": "maxis_z",
+      "mouse": "maxis_z",
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "spectate_zoom_in": {
+    "name": "spectate_zoom_in",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Zoom In",
+    "device": {
+      "keyboard": "mwheel_up",
+      "mouse": "mwheel_up",
+      "xboxpad": "triggerr_btn",
+      "joystick": "hat1_up"
+    }
+  },
+  "spectate_zoom_out": {
+    "name": "spectate_zoom_out",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Zoom Out",
+    "device": {
+      "keyboard": "mwheel_down",
+      "mouse": "mwheel_down",
+      "xboxpad": "triggerl_btn",
+      "joystick": "hat1_down"
+    }
+  },
+  "spectate_rotateyaw_mouse": {
+    "name": "spectate_rotateyaw_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Rotate Yaw",
+    "device": {
+      "keyboard": " ",
+      "mouse": "maxis_x",
+      "xboxpad": "",
+      "joystick": "x"
+    }
+  },
+  "spectate_rotatepitch_mouse": {
+    "name": "spectate_rotatepitch_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Rotate Pitch",
+    "device": {
+      "keyboard": "maxis_y",
+      "mouse": " ",
+      "xboxpad": "",
+      "joystick": "y"
+    }
+  },
+  "spectate_rotateyaw": {
+    "name": "spectate_rotateyaw",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Rotate Yaw",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "thumbrx",
+      "joystick": "x"
+    }
+  },
+  "spectate_rotatepitch": {
+    "name": "spectate_rotatepitch",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Rotate Pitch",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": "thumbry",
+      "joystick": "y"
+    }
+  },
+  "spectate_toggle_hud": {
+    "name": "spectate_toggle_hud",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera HUD (Toggle)",
+    "device": {
+      "keyboard": "b",
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": " "
+    }
+  },
+  "spectate_gen_nextcamera": {
+    "name": "spectate_gen_nextcamera",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "n",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "spectate_gen_nextmode": {
+    "name": "spectate_gen_nextmode",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Mode (Next)",
+    "device": {
+      "keyboard": "f4",
+      "mouse": null,
+      "xboxpad": "a",
+      "joystick": " "
+    }
+  },
+  "spectate_gen_prevmode": {
+    "name": "spectate_gen_prevmode",
+    "activation_mode": null,
+    "label": null,
+    "description": "Spectator Camera Mode (Previous)",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "spectate_moveleft": {
+    "name": "spectate_moveleft",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "a",
+      "mouse": null,
+      "xboxpad": "thumbl_left",
+      "joystick": null
+    }
+  },
+  "spectate_moveright": {
+    "name": "spectate_moveright",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "d",
+      "mouse": null,
+      "xboxpad": "thumbl_right",
+      "joystick": null
+    }
+  },
+  "spectate_moveforward": {
+    "name": "spectate_moveforward",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "w",
+      "mouse": null,
+      "xboxpad": "thumbl_up",
+      "joystick": null
+    }
+  },
+  "spectate_moveback": {
+    "name": "spectate_moveback",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "s",
+      "mouse": null,
+      "xboxpad": "thumbl_down",
+      "joystick": null
+    }
+  },
+  "spectate_moveup": {
+    "name": "spectate_moveup",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "space",
+      "mouse": null,
+      "xboxpad": "shoulderl+thumbr_up",
+      "joystick": null
+    }
+  },
+  "spectate_movedown": {
+    "name": "spectate_movedown",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "lctrl",
+      "mouse": null,
+      "xboxpad": "shoulderl+thumbr_down",
+      "joystick": null
+    }
+  },
+  "spectate_freecam_sprint": {
+    "name": "spectate_freecam_sprint",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "lshift",
+      "mouse": null,
+      "xboxpad": "thumbl",
+      "joystick": null
+    }
+  },
+  "spectate_toggle_freecam": {
+    "name": "spectate_toggle_freecam",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "z",
+      "mouse": null,
+      "xboxpad": "thumbr",
+      "joystick": null
+    }
+  },
+  "spectate_toggle_thirdperson": {
+    "name": "spectate_toggle_thirdperson",
+    "activation_mode": "tap",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "f4",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "spectate_roll_left": {
+    "name": "spectate_roll_left",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "q",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": null
+    }
+  },
+  "spectate_roll_right": {
+    "name": "spectate_roll_right",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "e",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": null
+    }
+  },
+  "hmd_toggle": {
+    "name": "hmd_toggle",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_1",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "hmd_center": {
+    "name": "hmd_center",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_2",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "skip_cutscene": {
+    "name": "skip_cutscene",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "space",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "cam_toggle_cinematic": {
+    "name": "cam_toggle_cinematic",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "lalt+c",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "objectives": {
+    "name": "objectives",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "o",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "toggle_trackview": {
+    "name": "toggle_trackview",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "F5",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "toggle_action_profile": {
+    "name": "toggle_action_profile",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": null
+    }
+  },
+  "respawn": {
+    "name": "respawn",
+    "activation_mode": null,
+    "label": null,
+    "description": "Re-spawn",
+    "device": {
+      "keyboard": "x",
+      "mouse": null,
+      "xboxpad": "x",
+      "joystick": "button1"
+    }
+  },
+  "retry": {
+    "name": "retry",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "x",
+      "mouse": null,
+      "xboxpad": "x",
+      "joystick": "button1"
+    }
+  },
+  "ready": {
+    "name": "ready",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "x",
+      "mouse": null,
+      "xboxpad": "x",
+      "joystick": "button1"
+    }
+  },
+  "edit_loadout": {
+    "name": "edit_loadout",
+    "activation_mode": "tap",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "l",
+      "mouse": null,
+      "xboxpad": "dpad_down",
+      "joystick": "button2"
+    }
+  },
+  "ui_toggle_pause": {
+    "name": "ui_toggle_pause",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "escape",
+      "mouse": null,
+      "xboxpad": "start",
+      "joystick": null
+    }
+  },
+  "ui_click": {
+    "name": "ui_click",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "triggerr_btn",
+      "joystick": null
+    }
+  },
+  "ui_back": {
+    "name": "ui_back",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "escape",
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": null
+    }
+  },
+  "ui_up": {
+    "name": "ui_up",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_down": {
+    "name": "ui_down",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_left": {
+    "name": "ui_left",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_right": {
+    "name": "ui_right",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_confirm": {
+    "name": "ui_confirm",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "y",
+      "joystick": null
+    }
+  },
+  "ui_reset": {
+    "name": "ui_reset",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "x",
+      "joystick": null
+    }
+  },
+  "ui_skip_video": {
+    "name": "ui_skip_video",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "space",
+      "mouse": null,
+      "xboxpad": "a",
+      "joystick": null
+    }
+  },
+  "ui_hide_hint": {
+    "name": "ui_hide_hint",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "f",
+      "mouse": null,
+      "xboxpad": "y",
+      "joystick": "button2"
+    }
+  },
+  "flashui_mouse": {
+    "name": "flashui_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flashui_return": {
+    "name": "flashui_return",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "a",
+      "joystick": "button2"
+    }
+  },
+  "flashui_backspace": {
+    "name": "flashui_backspace",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": "button3"
+    }
+  },
+  "flashui_tab": {
+    "name": "flashui_tab",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "tab",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flashui_kp_2": {
+    "name": "flashui_kp_2",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "x",
+      "joystick": "button7"
+    }
+  },
+  "flashui_kp_3": {
+    "name": "flashui_kp_3",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "y",
+      "joystick": "button4"
+    }
+  },
+  "flashui_kp_4": {
+    "name": "flashui_kp_4",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "shoulderl",
+      "joystick": "button5"
+    }
+  },
+  "flashui_kp_7": {
+    "name": "flashui_kp_7",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "shoulderr",
+      "joystick": "button6"
+    }
+  },
+  "flashui_up": {
+    "name": "flashui_up",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "up",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": "hat1_up"
+    }
+  },
+  "flashui_down": {
+    "name": "flashui_down",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "down",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": "hat1_down"
+    }
+  },
+  "flashui_left": {
+    "name": "flashui_left",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "left",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": "hat1_left"
+    }
+  },
+  "flashui_right": {
+    "name": "flashui_right",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "right",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": "hat1_right"
+    }
+  },
+  "foip_pushtotalk": {
+    "name": "foip_pushtotalk",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "[PH]\u00a0FOIP Push To Talk",
+    "device": {
+      "keyboard": "np_add",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "foip_pushtoheadtrack": {
+    "name": "foip_pushtoheadtrack",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0FOIP Head Tracking (Toggle)",
+    "device": {
+      "keyboard": "np_divide",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "foip_viewownplayer": {
+    "name": "foip_viewownplayer",
+    "activation_mode": "hold",
+    "label": null,
+    "description": "[PH] FOIP Selfie Cam",
+    "device": {
+      "keyboard": "np_subtract",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "foip_recalibrate": {
+    "name": "foip_recalibrate",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0FOIP Recalibrate",
+    "device": {
+      "keyboard": "np_multiply",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "toggle_contact": {
+    "name": "toggle_contact",
+    "activation_mode": null,
+    "label": null,
+    "description": "CommLink App (Toggle)",
+    "device": {
+      "keyboard": "f11",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "toggle_chat": {
+    "name": "toggle_chat",
+    "activation_mode": null,
+    "label": null,
+    "description": "Chat Window (Toggle)",
+    "device": {
+      "keyboard": "f12",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "focus_on_chat_textinput": {
+    "name": "focus_on_chat_textinput",
+    "activation_mode": null,
+    "label": null,
+    "description": "Chat Window Focus",
+    "device": {
+      "keyboard": "enter",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_copy": {
+    "name": "ui_copy",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "lctrl+c",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_cut": {
+    "name": "ui_cut",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "lctrl+x",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_paste": {
+    "name": "ui_paste",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "lctrl+v",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_select": {
+    "name": "ui_3d_display_select",
+    "activation_mode": "tap",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_center": {
+    "name": "ui_3d_display_center",
+    "activation_mode": "double_tap_nonblocking",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_decenter": {
+    "name": "ui_3d_display_decenter",
+    "activation_mode": "double_tap_nonblocking",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse2",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_zoom_out_button": {
+    "name": "ui_3d_display_zoom_out_button",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_zoom_in_button": {
+    "name": "ui_3d_display_zoom_in_button",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_zoom_in_analog": {
+    "name": "ui_3d_display_zoom_in_analog",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": null
+    }
+  },
+  "ui_3d_display_zoom_out_analog": {
+    "name": "ui_3d_display_zoom_out_analog",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": null
+    }
+  },
+  "ui_3d_display_pan_toggle": {
+    "name": "ui_3d_display_pan_toggle",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse2",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_rotate_toggle": {
+    "name": "ui_3d_display_rotate_toggle",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_zoom_toggle": {
+    "name": "ui_3d_display_zoom_toggle",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse3",
+      "xboxpad": "triggerr_btn",
+      "joystick": null
+    }
+  },
+  "ui_3d_display_toggledPanX": {
+    "name": "ui_3d_display_toggledPanX",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_x",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_toggledPanY": {
+    "name": "ui_3d_display_toggledPanY",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_y",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_toggledYaw": {
+    "name": "ui_3d_display_toggledYaw",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_x",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_toggledPitch": {
+    "name": "ui_3d_display_toggledPitch",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_y",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_toggledZoom": {
+    "name": "ui_3d_display_toggledZoom",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_y",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_nonToggledPanX": {
+    "name": "ui_3d_display_nonToggledPanX",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumbrx",
+      "joystick": null
+    }
+  },
+  "ui_3d_display_nonToggledPanY": {
+    "name": "ui_3d_display_nonToggledPanY",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumbry",
+      "joystick": null
+    }
+  },
+  "ui_3d_display_nonToggledYaw": {
+    "name": "ui_3d_display_nonToggledYaw",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumblx",
+      "joystick": null
+    }
+  },
+  "ui_3d_display_nonToggledPitch": {
+    "name": "ui_3d_display_nonToggledPitch",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumbly",
+      "joystick": null
+    }
+  },
+  "ui_3d_display_pinMode": {
+    "name": "ui_3d_display_pinMode",
+    "activation_mode": "hold",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "lctrl",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_3d_display_pinSelect": {
+    "name": "ui_3d_display_pinSelect",
+    "activation_mode": "tap",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_textfield_enter": {
+    "name": "ui_textfield_enter",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_textfield_backspace": {
+    "name": "ui_textfield_backspace",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "backspace",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_textfield_arrow_up": {
+    "name": "ui_textfield_arrow_up",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "up",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_textfield_arrow_down": {
+    "name": "ui_textfield_arrow_down",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "down",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_textfield_arrow_left": {
+    "name": "ui_textfield_arrow_left",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "left",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_textfield_arrow_right": {
+    "name": "ui_textfield_arrow_right",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "right",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_notification_accept": {
+    "name": "ui_notification_accept",
+    "activation_mode": null,
+    "label": null,
+    "description": "",
+    "device": {
+      "keyboard": "lbracket",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_notification_decline": {
+    "name": "ui_notification_decline",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "",
+    "device": {
+      "keyboard": "rbracket",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "ui_notification_ignore": {
+    "name": "ui_notification_ignore",
+    "activation_mode": "delayed_hold",
+    "label": null,
+    "description": "[PH]\u00a0Ignore Invite",
+    "device": {
+      "keyboard": "rbracket",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "emote_cs_forward": {
+    "name": "emote_cs_forward",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Forward",
+    "device": {
+      "keyboard": "np_5",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_cs_left": {
+    "name": "emote_cs_left",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Left",
+    "device": {
+      "keyboard": "np_1",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_cs_right": {
+    "name": "emote_cs_right",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Right",
+    "device": {
+      "keyboard": "np_3",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_cs_stop": {
+    "name": "emote_cs_stop",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Stop",
+    "device": {
+      "keyboard": "np_2",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_cs_yes": {
+    "name": "emote_cs_yes",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Yes",
+    "device": {
+      "keyboard": "np_4",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_cs_no": {
+    "name": "emote_cs_no",
+    "activation_mode": "press",
+    "label": null,
+    "description": "No",
+    "device": {
+      "keyboard": "np_6",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_agree": {
+    "name": "emote_agree",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Agree",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_angry": {
+    "name": "emote_angry",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Angry",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_atease": {
+    "name": "emote_atease",
+    "activation_mode": "press",
+    "label": null,
+    "description": "At Ease",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_attention": {
+    "name": "emote_attention",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Attention",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_blah": {
+    "name": "emote_blah",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Blah",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_bored": {
+    "name": "emote_bored",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Bored",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_bow": {
+    "name": "emote_bow",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Bow",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_burp": {
+    "name": "emote_burp",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Burp",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_cheer": {
+    "name": "emote_cheer",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Cheer",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_chicken": {
+    "name": "emote_chicken",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Chicken",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_clap": {
+    "name": "emote_clap",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Clap",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_come": {
+    "name": "emote_come",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Come",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_cry": {
+    "name": "emote_cry",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Cry",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_dance": {
+    "name": "emote_dance",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Dance",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_disagree": {
+    "name": "emote_disagree",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Disagree",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_failure": {
+    "name": "emote_failure",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Failure",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_flex": {
+    "name": "emote_flex",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Flex",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_flirt": {
+    "name": "emote_flirt",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Flirt",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_gasp": {
+    "name": "emote_gasp",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Gasp",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_gloat": {
+    "name": "emote_gloat",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Gloat",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_greet": {
+    "name": "emote_greet",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Greet",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_laugh": {
+    "name": "emote_laugh",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Laugh",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_launch": {
+    "name": "emote_launch",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Confirms the launch of the vehicle",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_point": {
+    "name": "emote_point",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Point",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_rude": {
+    "name": "emote_rude",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Rude",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_salute": {
+    "name": "emote_salute",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Salute",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_sit": {
+    "name": "emote_sit",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Sit",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_sleep": {
+    "name": "emote_sleep",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Sleep",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_smell": {
+    "name": "emote_smell",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Smell",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_taunt": {
+    "name": "emote_taunt",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Taunt",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_threaten": {
+    "name": "emote_threaten",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Threaten",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_wait": {
+    "name": "emote_wait",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Wait",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_wave": {
+    "name": "emote_wave",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Wave",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "emote_whistle": {
+    "name": "emote_whistle",
+    "activation_mode": "press",
+    "label": null,
+    "description": "Whistle",
+    "device": {
+      "keyboard": " ",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "pc_interaction_mode": {
+    "name": "pc_interaction_mode",
+    "activation_mode": "delayed_hold_no_retrigger",
+    "label": null,
+    "description": "[PH]\u00a0Interaction Mode",
+    "device": {
+      "keyboard": "f",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": "button6"
+    }
+  },
+  "pc_interaction_quick": {
+    "name": "pc_interaction_quick",
+    "activation_mode": "tap_quicker",
+    "label": null,
+    "description": "Interaction quick select",
+    "device": {
+      "keyboard": "f",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": "button6"
+    }
+  },
+  "pc_select": {
+    "name": "pc_select",
+    "activation_mode": null,
+    "label": null,
+    "description": "[PH]\u00a0Activate Interaction",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse1",
+      "xboxpad": "triggerr_btn",
+      "joystick": "button1"
+    }
+  },
+  "pc_focus": {
+    "name": "pc_focus",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "[PH]\u00a0Focus",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse2",
+      "xboxpad": "triggerl_btn",
+      "joystick": "button7"
+    }
+  },
+  "pc_throw_decrease": {
+    "name": "pc_throw_decrease",
+    "activation_mode": null,
+    "label": null,
+    "description": "[PH]\u00a0Decrease Throw Power",
+    "device": {
+      "keyboard": "",
+      "mouse": "mouse2",
+      "xboxpad": "triggerl_btn",
+      "joystick": "button7"
+    }
+  },
+  "pc_zoom_in": {
+    "name": "pc_zoom_in",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH] Interaction Mode Zoom In",
+    "device": {
+      "keyboard": "mwheel_up",
+      "mouse": "mwheel_up",
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "pc_zoom_out": {
+    "name": "pc_zoom_out",
+    "activation_mode": "press",
+    "label": null,
+    "description": "[PH]\u00a0Interaction Mode Zoom Out",
+    "device": {
+      "keyboard": "mwheel_down",
+      "mouse": "mwheel_down",
+      "xboxpad": null,
+      "joystick": " "
+    }
+  },
+  "pc_screen_focus_left": {
+    "name": "pc_screen_focus_left",
+    "activation_mode": "press",
+    "label": null,
+    "description": "MFD Left",
+    "device": {
+      "keyboard": "a",
+      "mouse": null,
+      "xboxpad": "dpad_left",
+      "joystick": " "
+    }
+  },
+  "pc_screen_focus_right": {
+    "name": "pc_screen_focus_right",
+    "activation_mode": "press",
+    "label": null,
+    "description": "MFD Right",
+    "device": {
+      "keyboard": "d",
+      "mouse": null,
+      "xboxpad": "dpad_right",
+      "joystick": " "
+    }
+  },
+  "pc_screen_focus_up": {
+    "name": "pc_screen_focus_up",
+    "activation_mode": "press",
+    "label": null,
+    "description": "MFD Up",
+    "device": {
+      "keyboard": "w",
+      "mouse": null,
+      "xboxpad": "dpad_up",
+      "joystick": " "
+    }
+  },
+  "pc_screen_focus_down": {
+    "name": "pc_screen_focus_down",
+    "activation_mode": "press",
+    "label": null,
+    "description": "MFD Down",
+    "device": {
+      "keyboard": "s",
+      "mouse": null,
+      "xboxpad": "dpad_down",
+      "joystick": " "
+    }
+  },
+  "pc_personal_thought": {
+    "name": "pc_personal_thought",
+    "activation_mode": "all",
+    "label": null,
+    "description": "[PH]\u00a0Personal Inner Thought",
+    "device": {
+      "keyboard": "tab",
+      "mouse": null,
+      "xboxpad": "thumbl",
+      "joystick": " "
+    }
+  },
+  "pc_personal_index1": {
+    "name": "pc_personal_index1",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_1",
+      "mouse": null,
+      "xboxpad": "x",
+      "joystick": " "
+    }
+  },
+  "pc_personal_index2": {
+    "name": "pc_personal_index2",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_2",
+      "mouse": null,
+      "xboxpad": "a",
+      "joystick": " "
+    }
+  },
+  "pc_personal_index3": {
+    "name": "pc_personal_index3",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_3",
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": " "
+    }
+  },
+  "pc_personal_index4": {
+    "name": "pc_personal_index4",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_4",
+      "mouse": null,
+      "xboxpad": "dpad_left",
+      "joystick": " "
+    }
+  },
+  "pc_personal_index5": {
+    "name": "pc_personal_index5",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_5",
+      "mouse": null,
+      "xboxpad": "dpad_down",
+      "joystick": " "
+    }
+  },
+  "pc_personal_index6": {
+    "name": "pc_personal_index6",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_6",
+      "mouse": null,
+      "xboxpad": "dpad_right",
+      "joystick": " "
+    }
+  },
+  "pc_personal_back": {
+    "name": "pc_personal_back",
+    "activation_mode": "press",
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "np_0",
+      "mouse": null,
+      "xboxpad": "thumbr",
+      "joystick": " "
+    }
+  },
+  "flycam_rotateyaw": {
+    "name": "flycam_rotateyaw",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumbrx",
+      "joystick": null
+    }
+  },
+  "flycam_rotatepitch": {
+    "name": "flycam_rotatepitch",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumbry",
+      "joystick": null
+    }
+  },
+  "flycam_rotateyaw_mouse": {
+    "name": "flycam_rotateyaw_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_x",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flycam_rotatepitch_mouse": {
+    "name": "flycam_rotatepitch_mouse",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": "maxis_y",
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flycam_movey": {
+    "name": "flycam_movey",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumbly",
+      "joystick": null
+    }
+  },
+  "flycam_movefwd": {
+    "name": "flycam_movefwd",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "w",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flycam_moveback": {
+    "name": "flycam_moveback",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "s",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flycam_movex": {
+    "name": "flycam_movex",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": "thumblx",
+      "joystick": null
+    }
+  },
+  "flycam_moveright": {
+    "name": "flycam_moveright",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "d",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flycam_moveleft": {
+    "name": "flycam_moveleft",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "a",
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flycam_movez": {
+    "name": "flycam_movez",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": null,
+      "mouse": null,
+      "xboxpad": null,
+      "joystick": null
+    }
+  },
+  "flycam_moveup": {
+    "name": "flycam_moveup",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "q",
+      "mouse": null,
+      "xboxpad": "triggerr",
+      "joystick": null
+    }
+  },
+  "flycam_movedown": {
+    "name": "flycam_movedown",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "e",
+      "mouse": null,
+      "xboxpad": "triggerl",
+      "joystick": null
+    }
+  },
+  "flycam_speedup": {
+    "name": "flycam_speedup",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "up",
+      "mouse": null,
+      "xboxpad": "dpad_up",
+      "joystick": null
+    }
+  },
+  "flycam_speeddown": {
+    "name": "flycam_speeddown",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "down",
+      "mouse": null,
+      "xboxpad": "dpad_down",
+      "joystick": null
+    }
+  },
+  "flycam_turbo": {
+    "name": "flycam_turbo",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "space",
+      "mouse": null,
+      "xboxpad": "a",
+      "joystick": null
+    }
+  },
+  "flycam_setpoint": {
+    "name": "flycam_setpoint",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "z",
+      "mouse": null,
+      "xboxpad": "shoulderl",
+      "joystick": null
+    }
+  },
+  "flycam_play": {
+    "name": "flycam_play",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "x",
+      "mouse": null,
+      "xboxpad": "b",
+      "joystick": null
+    }
+  },
+  "flycam_clear": {
+    "name": "flycam_clear",
+    "activation_mode": null,
+    "label": null,
+    "description": null,
+    "device": {
+      "keyboard": "c",
+      "mouse": null,
+      "xboxpad": "y",
+      "joystick": null
+    }
+  },
+  "view_enable_camview_mode": {
+    "name": "view_enable_camview_mode",
+    "activation_mode": null,
+    "label": null,
+    "description": "Advanced Camera Controls Modifier (Hold)",
+    "device": {
+      "keyboard": "f4",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_switch_to_alternative": {
+    "name": "view_switch_to_alternative",
+    "activation_mode": null,
+    "label": null,
+    "description": "Advanced Camera Controls Modifier (Hold)",
+    "device": {
+      "keyboard": "z",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_save_view_1": {
+    "name": "view_save_view_1",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Save View 1",
+    "device": {
+      "keyboard": "np_1",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_save_view_2": {
+    "name": "view_save_view_2",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Save View 2",
+    "device": {
+      "keyboard": "np_2",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_save_view_3": {
+    "name": "view_save_view_3",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Save View 3",
+    "device": {
+      "keyboard": "np_3",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_save_view_4": {
+    "name": "view_save_view_4",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Save View 4",
+    "device": {
+      "keyboard": "np_4",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_save_view_5": {
+    "name": "view_save_view_5",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Save View 5",
+    "device": {
+      "keyboard": "np_5",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_save_view_6": {
+    "name": "view_save_view_6",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Save View 6",
+    "device": {
+      "keyboard": "np_6",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_save_view_7": {
+    "name": "view_save_view_7",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Save View 7",
+    "device": {
+      "keyboard": "np_7",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_save_view_8": {
+    "name": "view_save_view_8",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Save View 8",
+    "device": {
+      "keyboard": "np_8",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_save_view_9": {
+    "name": "view_save_view_9",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Save View 9",
+    "device": {
+      "keyboard": "np_9",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_load_view_1": {
+    "name": "view_load_view_1",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Load View 1",
+    "device": {
+      "keyboard": "np_1",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_load_view_2": {
+    "name": "view_load_view_2",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Load View 2",
+    "device": {
+      "keyboard": "np_2",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_load_view_3": {
+    "name": "view_load_view_3",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Load View 3",
+    "device": {
+      "keyboard": "np_3",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_load_view_4": {
+    "name": "view_load_view_4",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Load View 4",
+    "device": {
+      "keyboard": "np_4",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_load_view_5": {
+    "name": "view_load_view_5",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Load View 5",
+    "device": {
+      "keyboard": "np_5",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_load_view_6": {
+    "name": "view_load_view_6",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Load View 6",
+    "device": {
+      "keyboard": "np_6",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_load_view_7": {
+    "name": "view_load_view_7",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Load View 7",
+    "device": {
+      "keyboard": "np_7",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_load_view_8": {
+    "name": "view_load_view_8",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Load View 8",
+    "device": {
+      "keyboard": "np_8",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_load_view_9": {
+    "name": "view_load_view_9",
+    "activation_mode": "tap",
+    "label": null,
+    "description": "Load View 9",
+    "device": {
+      "keyboard": "np_9",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_reset_saved": {
+    "name": "view_reset_saved",
+    "activation_mode": "delayed_press",
+    "label": null,
+    "description": "Clear Saved View",
+    "device": {
+      "keyboard": "np_0",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_move_target_X_pos": {
+    "name": "view_move_target_X_pos",
+    "activation_mode": null,
+    "label": null,
+    "description": "X Offset Positive",
+    "device": {
+      "keyboard": "right",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_move_target_X_neg": {
+    "name": "view_move_target_X_neg",
+    "activation_mode": null,
+    "label": null,
+    "description": "X Offset Negative",
+    "device": {
+      "keyboard": "left",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_move_target_Y_pos": {
+    "name": "view_move_target_Y_pos",
+    "activation_mode": null,
+    "label": null,
+    "description": "Y Offset Positive / Spectator Freecam Focal Point Forward",
+    "device": {
+      "keyboard": "up",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_move_target_Y_neg": {
+    "name": "view_move_target_Y_neg",
+    "activation_mode": null,
+    "label": null,
+    "description": "Y Offset Negative\u00a0/ Spectator Freecam Focal Point Backward",
+    "device": {
+      "keyboard": "down",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_move_target_Z_pos": {
+    "name": "view_move_target_Z_pos",
+    "activation_mode": null,
+    "label": null,
+    "description": "Z Offset Positive",
+    "device": {
+      "keyboard": "pgup",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_move_target_Z_neg": {
+    "name": "view_move_target_Z_neg",
+    "activation_mode": null,
+    "label": null,
+    "description": "Z Offset Negative",
+    "device": {
+      "keyboard": "pgdn",
+      "mouse": null,
+      "xboxpad": "",
+      "joystick": ""
+    }
+  },
+  "view_fov_in": {
+    "name": "view_fov_in",
+    "activation_mode": null,
+    "label": null,
+    "description": "Increase FoV",
+    "device": {
+      "keyboard": "np_add",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "view_fov_out": {
+    "name": "view_fov_out",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decrease FoV",
+    "device": {
+      "keyboard": "np_subtract",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "view_fstop_in": {
+    "name": "view_fstop_in",
+    "activation_mode": null,
+    "label": null,
+    "description": "Increase DoF",
+    "device": {
+      "keyboard": "home",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "view_fstop_out": {
+    "name": "view_fstop_out",
+    "activation_mode": null,
+    "label": null,
+    "description": "Decrease DoF",
+    "device": {
+      "keyboard": "end",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  },
+  "view_restore_defaults": {
+    "name": "view_restore_defaults",
+    "activation_mode": null,
+    "label": null,
+    "description": "Reset Current View",
+    "device": {
+      "keyboard": "np_multiply",
+      "mouse": null,
+      "xboxpad": " ",
+      "joystick": " "
+    }
+  }
+}
