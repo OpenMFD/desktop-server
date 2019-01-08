@@ -29,8 +29,10 @@ def parse_default_profile():
         if child.tag != 'actionmap':
             continue
 
+        action_map_name = child.attrib['name']
+
         for action in child:
-            name = action.attrib['name']
+            action_name = action.attrib['name']
             keyboard = get_key_if_exists('keyboard', action.attrib)
             mouse = get_key_if_exists('mouse', action.attrib)
             xboxpad = get_key_if_exists('xboxpad', action.attrib)
@@ -44,8 +46,12 @@ def parse_default_profile():
             if 'UIDescription' in action.attrib and action.attrib['UIDescription'][1:] in lang:
                 description = lang[action.attrib['UIDescription'][1:]]
 
-            bindings[name] = {
-                'name': name,
+            if action_map_name not in bindings:
+                bindings[action_map_name] = {}
+
+            bindings[action_map_name][action_name] = {
+                'action_name': action_name,
+                'action_map_name': action_map_name,
                 'activation_mode': activation_mode,
                 'label': label,
                 'description': description,
@@ -65,10 +71,12 @@ def parse_layout(file):
         if child.tag != 'actionmap':
             continue
 
-        for action in child:
-            name = action.attrib['name']
+        action_map_name = child.attrib['name']
 
-            if name not in bindings:
+        for action in child:
+            action_name = action.attrib['name']
+
+            if action_name not in bindings:
                 continue
 
             for rebind in action:
@@ -76,10 +84,10 @@ def parse_layout(file):
                 input = rebind.attrib['input']
                 activation_mode = get_key_if_exists('ActivationMode', rebind.attrib)
 
-                bindings[name]['device'][device] = input
+                bindings[action_map_name][action_name]['device'][device] = input
 
                 if activation_mode is not None:
-                    bindings[name]['activation_mode'] = activation_mode
+                    bindings[action_map_name][action_name]['activation_mode'] = activation_mode
 
 
 def write_bindings():
