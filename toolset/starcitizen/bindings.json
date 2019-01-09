@@ -3,11 +3,11 @@
     "v_eject": {
       "action_name": "v_eject",
       "action_map_name": "spaceship_general",
-      "activation_mode": "delayed_press",
+      "activation_mode": "double_tap",
       "label": null,
       "description": "Eject",
       "device": {
-        "keyboard": "l",
+        "keyboard": "lalt+l",
         "mouse": null,
         "xboxpad": " ",
         "joystick": "rctrl+button6"
@@ -16,11 +16,11 @@
     "v_eject_cinematic": {
       "action_name": "v_eject_cinematic",
       "action_map_name": "spaceship_general",
-      "activation_mode": null,
+      "activation_mode": "double_tap",
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "l",
+        "keyboard": "lalt+l",
         "mouse": null,
         "xboxpad": " ",
         "joystick": "rctrl+button6"
@@ -33,7 +33,7 @@
       "label": null,
       "description": "Exit seat",
       "device": {
-        "keyboard": "h",
+        "keyboard": "lalt+f",
         "mouse": null,
         "xboxpad": null,
         "joystick": " "
@@ -46,7 +46,7 @@
       "label": null,
       "description": "Self Destruct",
       "device": {
-        "keyboard": "backspace",
+        "keyboard": "lalt+backspace",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -59,7 +59,7 @@
       "label": null,
       "description": "Increase Cooler Rate",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+np_8",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -72,7 +72,7 @@
       "label": null,
       "description": "Decrease Cooler Rate",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+np_7",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -98,7 +98,7 @@
       "label": null,
       "description": "[PH] Flight / Systems Ready",
       "device": {
-        "keyboard": " ",
+        "keyboard": "8",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -111,7 +111,7 @@
       "label": null,
       "description": "[PH]\u00a0Open All Doors",
       "device": {
-        "keyboard": " ",
+        "keyboard": "9",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -124,7 +124,7 @@
       "label": null,
       "description": "[PH]\u00a0Close All Doors",
       "device": {
-        "keyboard": " ",
+        "keyboard": "9",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -137,7 +137,7 @@
       "label": null,
       "description": "[PH]\u00a0Lock All Doors",
       "device": {
-        "keyboard": " ",
+        "keyboard": "0",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -150,7 +150,7 @@
       "label": null,
       "description": "[PH]\u00a0Unlock All Doors",
       "device": {
-        "keyboard": " ",
+        "keyboard": "0",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -192,7 +192,7 @@
       "description": "Look left / right",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "thumbrx",
         "joystick": "x"
       }
@@ -218,7 +218,7 @@
       "description": null,
       "device": {
         "keyboard": "HMD_Yaw",
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": null,
         "joystick": null
       }
@@ -257,7 +257,7 @@
       "description": "Look up / down",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "thumbry",
         "joystick": "y"
       }
@@ -283,7 +283,7 @@
       "description": null,
       "device": {
         "keyboard": "HMD_Pitch",
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": null,
         "joystick": null
       }
@@ -347,7 +347,7 @@
       "label": null,
       "description": "Cycle camera orbit mode",
       "device": {
-        "keyboard": " ",
+        "keyboard": "f3",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -386,7 +386,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "f",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "triggerr_btn",
         "joystick": " "
@@ -412,7 +412,7 @@
       "label": null,
       "description": "Dynamic zoom in and out",
       "device": {
-        "keyboard": "maxis_z",
+        "keyboard": " ",
         "mouse": "",
         "xboxpad": " ",
         "joystick": " "
@@ -425,7 +425,7 @@
       "label": null,
       "description": "Dynamic zoom in",
       "device": {
-        "keyboard": " ",
+        "keyboard": "mwheel_up",
         "mouse": "",
         "xboxpad": " ",
         "joystick": " "
@@ -438,7 +438,7 @@
       "label": null,
       "description": "Dynamic zoom out",
       "device": {
-        "keyboard": " ",
+        "keyboard": "mwheel_down",
         "mouse": "",
         "xboxpad": " ",
         "joystick": " "
@@ -451,7 +451,7 @@
       "label": null,
       "description": "Look behind",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+z",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -493,7 +493,7 @@
       "description": "Pitch",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "thumbly",
         "joystick": "y"
       }
@@ -545,7 +545,7 @@
       "description": "Yaw",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "thumblx",
         "joystick": "x"
       }
@@ -570,7 +570,7 @@
       "label": null,
       "description": "Cycle mouse move mode",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+comma",
         "mouse": null,
         "xboxpad": null,
         "joystick": null
@@ -610,7 +610,7 @@
       "description": "Roll",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "shoulderl+thumblx",
         "joystick": "rotz"
       }
@@ -635,7 +635,7 @@
       "label": null,
       "description": "Swap Yaw / Roll (Toggle)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+period",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -648,7 +648,7 @@
       "label": null,
       "description": "Throttle min / max (Toggle)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "backspace",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -714,7 +714,7 @@
       "description": "Throttle up / down (abs.)",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": null,
         "joystick": "throttlez"
       }
@@ -727,7 +727,7 @@
       "description": "Throttle up / down (rel.)",
       "device": {
         "keyboard": " ",
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": " ",
         "joystick": " "
       }
@@ -739,7 +739,7 @@
       "label": null,
       "description": "Spacebrake",
       "device": {
-        "keyboard": "capslock",
+        "keyboard": "c",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -752,7 +752,7 @@
       "label": null,
       "description": "Match target velocity",
       "device": {
-        "keyboard": " ",
+        "keyboard": "m",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -765,7 +765,7 @@
       "label": null,
       "description": "Decoupled mode (Toggle)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "v",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -805,7 +805,7 @@
       "description": "Strafe up / down",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "shoulderl+thumbry",
         "joystick": " "
       }
@@ -843,7 +843,7 @@
       "label": null,
       "description": "Strafe left / right",
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "shoulderl+thumbrx",
         "joystick": " "
@@ -856,7 +856,7 @@
       "label": null,
       "description": "Strafe forward",
       "device": {
-        "keyboard": "2",
+        "keyboard": "lalt+w",
         "mouse": null,
         "xboxpad": "shoulderl+triggerr_btn",
         "joystick": "hat1_up"
@@ -869,7 +869,7 @@
       "label": null,
       "description": "Strafe back",
       "device": {
-        "keyboard": "3",
+        "keyboard": "lalt+s",
         "mouse": null,
         "xboxpad": "shoulderl+triggerl_btn",
         "joystick": "hat1_down"
@@ -883,7 +883,7 @@
       "description": "Strafe forward / back",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": " ",
         "joystick": " "
       }
@@ -895,7 +895,7 @@
       "label": null,
       "description": "Cycle IFCS safeties",
       "device": {
-        "keyboard": " ",
+        "keyboard": "2",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -934,7 +934,7 @@
       "label": null,
       "description": "E.S.P. (Toggle)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+o",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -947,7 +947,7 @@
       "label": null,
       "description": "Decoupled spacebrake",
       "device": {
-        "keyboard": "capslock",
+        "keyboard": "c",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -987,7 +987,7 @@
       "description": "Decoupled strafe up / down",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "shoulderl+thumbry",
         "joystick": " "
       }
@@ -1026,7 +1026,7 @@
       "description": "Decoupled strafe left / right",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "shoulderl+thumblx",
         "joystick": " "
       }
@@ -1065,7 +1065,7 @@
       "description": "Decoupled strafe forward / back",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": " ",
         "joystick": " "
       }
@@ -1077,7 +1077,7 @@
       "label": null,
       "description": "Decoupled yaw",
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "thumblx",
         "joystick": " "
@@ -1117,7 +1117,7 @@
       "description": "Decoupled pitch",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "thumbly",
         "joystick": " "
       }
@@ -1181,7 +1181,7 @@
       "label": null,
       "description": "Decoupled roll",
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "shoulderl+thumblx",
         "joystick": " "
@@ -1229,7 +1229,7 @@
     "v_autoland": {
       "action_name": "v_autoland",
       "action_map_name": "spaceship_movement",
-      "activation_mode": "delayed_hold",
+      "activation_mode": "delayed_press",
       "label": null,
       "description": "Activate Autoland",
       "device": {
@@ -1302,7 +1302,7 @@
       "label": null,
       "description": "Aim left / right",
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "thumbrx",
         "joystick": " "
@@ -1341,7 +1341,7 @@
       "label": null,
       "description": "Aim up / down",
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "thumbry",
         "joystick": " "
@@ -1406,7 +1406,7 @@
       "label": null,
       "description": "Reset aim",
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1419,7 +1419,7 @@
       "label": null,
       "description": "Look Ahead",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+m",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1432,7 +1432,7 @@
       "label": null,
       "description": "Cycle mouse aim mode",
       "device": {
-        "keyboard": " ",
+        "keyboard": "rshift",
         "mouse": null,
         "xboxpad": null,
         "joystick": null
@@ -1445,7 +1445,7 @@
       "label": null,
       "description": "Gimbal lock",
       "device": {
-        "keyboard": "j",
+        "keyboard": "lalt+j",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1484,7 +1484,7 @@
       "label": null,
       "description": "Cycle all targets",
       "device": {
-        "keyboard": " ",
+        "keyboard": "i",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1497,7 +1497,7 @@
       "label": null,
       "description": "Cycle all targets (Back)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "k",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1523,7 +1523,7 @@
       "label": null,
       "description": "Cycle friendly targets (Back)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "j",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1536,7 +1536,7 @@
       "label": null,
       "description": "Pin focused target",
       "device": {
-        "keyboard": " ",
+        "keyboard": "p",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1549,7 +1549,7 @@
       "label": null,
       "description": "Cycle pinned targets",
       "device": {
-        "keyboard": " ",
+        "keyboard": "o",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1562,7 +1562,7 @@
       "label": null,
       "description": "Cycle pinned targets (Back)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "l",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1588,7 +1588,7 @@
       "label": null,
       "description": "Cycle hostile targets (Back)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "h",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1614,7 +1614,7 @@
       "label": null,
       "description": "Cycle Sub-Target",
       "device": {
-        "keyboard": "i",
+        "keyboard": "lalt+t",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1627,7 +1627,7 @@
       "label": null,
       "description": "Cycle Sub-Target (Back)",
       "device": {
-        "keyboard": "o",
+        "keyboard": "lalt+y",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1640,7 +1640,7 @@
       "label": null,
       "description": "Reset Sub-Target",
       "device": {
-        "keyboard": "p",
+        "keyboard": "lalt+u",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1653,7 +1653,7 @@
       "label": null,
       "description": "Reticle mode (Toggle)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+k",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1666,7 +1666,7 @@
       "label": null,
       "description": "Target focus",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+r",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1744,7 +1744,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": null,
         "joystick": ""
@@ -1757,7 +1757,7 @@
       "label": null,
       "description": "[PH] Mining Mode Toggle",
       "device": {
-        "keyboard": "m",
+        "keyboard": "slash",
         "mouse": null,
         "xboxpad": "shoulderl+thumbr",
         "joystick": " "
@@ -1811,7 +1811,7 @@
       "label": null,
       "description": "[PH]\u00a0Scanning Increase Radar Angle",
       "device": {
-        "keyboard": "c",
+        "keyboard": "lalt+mwheel_up",
         "mouse": null,
         "xboxpad": "x",
         "joystick": "button3"
@@ -1824,7 +1824,7 @@
       "label": null,
       "description": "[PH]\u00a0Scanning Decrease Radar Angle",
       "device": {
-        "keyboard": "v",
+        "keyboard": "lalt+mwheel_down",
         "mouse": null,
         "xboxpad": "b",
         "joystick": "button4"
@@ -1866,7 +1866,7 @@
       "description": "[PH] Increase Mining Laser Power",
       "device": {
         "keyboard": "mwheel_up",
-        "mouse": null,
+        "mouse": "mwheel_up",
         "xboxpad": "x",
         "joystick": "button3"
       }
@@ -1879,7 +1879,7 @@
       "description": "[PH]\u00a0Decrease Mining Laser Power",
       "device": {
         "keyboard": "mwheel_down",
-        "mouse": null,
+        "mouse": "mwheel_down",
         "xboxpad": "b",
         "joystick": "button4"
       }
@@ -1891,7 +1891,7 @@
       "label": null,
       "description": "[PH]\u00a0Increase / Decrease Mining Laser Power",
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": " "
@@ -1906,7 +1906,7 @@
       "label": null,
       "description": "Gimbal lock",
       "device": {
-        "keyboard": "lctrl+g",
+        "keyboard": "lalt+j",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -1920,7 +1920,7 @@
       "description": "Aim left / right",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "thumbrx",
         "joystick": "x"
       }
@@ -1959,7 +1959,7 @@
       "description": "Aim up / down",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "thumbry",
         "joystick": "y"
       }
@@ -2023,7 +2023,7 @@
       "label": null,
       "description": "Reset aim",
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2036,7 +2036,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2062,7 +2062,7 @@
       "label": null,
       "description": "Cycle all targets",
       "device": {
-        "keyboard": " ",
+        "keyboard": "i",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2075,7 +2075,7 @@
       "label": null,
       "description": "Cycle all targets (Back)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "k",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2101,7 +2101,7 @@
       "label": null,
       "description": "Cycle friendly targets (Back)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "j",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2114,7 +2114,7 @@
       "label": null,
       "description": "Pin focused target",
       "device": {
-        "keyboard": " ",
+        "keyboard": "p",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2140,7 +2140,7 @@
       "label": null,
       "description": "Cycle hostile targets (Back)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "h",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2220,7 +2220,7 @@
       "label": null,
       "description": "[PH] Turret Gyro Stabilization (Toggle)",
       "device": {
-        "keyboard": "g",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "a",
         "joystick": " "
@@ -2272,11 +2272,11 @@
     "v_weapon_launch_countermeasure": {
       "action_name": "v_weapon_launch_countermeasure",
       "action_map_name": "spaceship_defensive",
-      "activation_mode": "all",
+      "activation_mode": "press",
       "label": null,
       "description": "Launch countermeasure",
       "device": {
-        "keyboard": "c",
+        "keyboard": "g",
         "mouse": null,
         "xboxpad": "b",
         "joystick": "button3"
@@ -2289,7 +2289,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "c",
+        "keyboard": "g",
         "mouse": null,
         "xboxpad": "b",
         "joystick": "button3"
@@ -2302,7 +2302,7 @@
       "label": null,
       "description": "Cycle countermeasure ammo",
       "device": {
-        "keyboard": "v",
+        "keyboard": "1",
         "mouse": null,
         "xboxpad": "dpad_down",
         "joystick": "button5"
@@ -2328,7 +2328,7 @@
       "label": null,
       "description": "Shield raise level front",
       "device": {
-        "keyboard": " ",
+        "keyboard": "np_8",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2341,7 +2341,7 @@
       "label": null,
       "description": "Shield raise level back",
       "device": {
-        "keyboard": " ",
+        "keyboard": "np_2",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2354,7 +2354,7 @@
       "label": null,
       "description": "Shield raise level left",
       "device": {
-        "keyboard": " ",
+        "keyboard": "np_4",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2367,7 +2367,7 @@
       "label": null,
       "description": "Shield raise level right",
       "device": {
-        "keyboard": " ",
+        "keyboard": "np_6",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2376,11 +2376,11 @@
     "v_shield_raise_level_up": {
       "action_name": "v_shield_raise_level_up",
       "action_map_name": "spaceship_defensive",
-      "activation_mode": null,
+      "activation_mode": "press",
       "label": null,
       "description": "Shield raise level top",
       "device": {
-        "keyboard": " ",
+        "keyboard": "np_9",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2389,11 +2389,11 @@
     "v_shield_raise_level_down": {
       "action_name": "v_shield_raise_level_down",
       "action_map_name": "spaceship_defensive",
-      "activation_mode": null,
+      "activation_mode": "press",
       "label": null,
       "description": "Shield raise level bottom",
       "device": {
-        "keyboard": " ",
+        "keyboard": "np_7",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2406,7 +2406,7 @@
       "label": null,
       "description": "Shield reset levels",
       "device": {
-        "keyboard": " ",
+        "keyboard": "np_5",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2436,7 +2436,7 @@
       "label": null,
       "description": "Power preset 1 (increase & decrease others)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "f5",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2449,7 +2449,7 @@
       "label": null,
       "description": "Power preset 2 (increase & decrease others)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "f6",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2462,7 +2462,7 @@
       "label": null,
       "description": "Power preset 3 (increase & decrease others)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "f7",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2475,7 +2475,7 @@
       "label": null,
       "description": "Reset Power Distribution",
       "device": {
-        "keyboard": " ",
+        "keyboard": "f8",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2488,7 +2488,7 @@
       "label": null,
       "description": "Increase Power",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+np_5",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2501,7 +2501,7 @@
       "label": null,
       "description": "Decrease Power",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+np_4",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2510,11 +2510,11 @@
     "v_power_throttle_max": {
       "action_name": "v_power_throttle_max",
       "action_map_name": "spaceship_power",
-      "activation_mode": "press",
+      "activation_mode": "double_tap",
       "label": null,
       "description": "Increase Power Max",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+np_5",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2523,11 +2523,11 @@
     "v_power_throttle_min": {
       "action_name": "v_power_throttle_min",
       "action_map_name": "spaceship_power",
-      "activation_mode": "press",
+      "activation_mode": "double_tap",
       "label": null,
       "description": "Decrease Power Min",
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+np_4",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2540,7 +2540,7 @@
       "label": null,
       "description": "Power preset 1 (Toggle)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "7",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2553,7 +2553,7 @@
       "label": null,
       "description": "Power preset 2 (Toggle)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "6",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2566,7 +2566,7 @@
       "label": null,
       "description": "Power preset 3 (Toggle)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "4",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2579,7 +2579,7 @@
       "label": null,
       "description": "[PH]\u00a0Power (Toggle)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "5",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2594,7 +2594,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2607,7 +2607,7 @@
       "label": null,
       "description": "Personal Identification Broadcast System (Toggle)",
       "device": {
-        "keyboard": " ",
+        "keyboard": "period",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2620,7 +2620,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2633,7 +2633,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2646,7 +2646,7 @@
       "label": null,
       "description": "Radar cycle range",
       "device": {
-        "keyboard": " ",
+        "keyboard": "comma",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -2659,7 +2659,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2672,7 +2672,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2685,7 +2685,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2698,7 +2698,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2726,7 +2726,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": null
@@ -2765,7 +2765,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2778,7 +2778,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2791,7 +2791,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "e",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "triggerr_btn",
         "joystick": " "
@@ -2804,7 +2804,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "q",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "triggerl_btn",
         "joystick": " "
@@ -2895,7 +2895,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": " ",
         "joystick": ""
@@ -2908,7 +2908,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": " ",
         "joystick": ""
@@ -2921,7 +2921,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2934,7 +2934,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2947,7 +2947,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2960,7 +2960,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2973,7 +2973,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2986,7 +2986,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -2999,7 +2999,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -3012,7 +3012,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -3040,7 +3040,7 @@
       "label": null,
       "description": "Headlights (Toggle)",
       "device": {
-        "keyboard": "5",
+        "keyboard": "3",
         "mouse": null,
         "xboxpad": "shoulderl+dpad_left",
         "joystick": " "
@@ -3289,7 +3289,7 @@
       "label": null,
       "description": "Walk",
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -3510,7 +3510,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": " ",
+        "keyboard": "",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -3679,7 +3679,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -3692,7 +3692,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": ""
@@ -3731,7 +3731,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": " ",
+        "keyboard": "v",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -3822,7 +3822,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "tab",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "back",
         "joystick": null
@@ -3874,7 +3874,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "lshift",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "thumbl",
         "joystick": null
@@ -3887,7 +3887,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "HMD_Yaw",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": null,
         "joystick": null
@@ -3900,7 +3900,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "HMD_Pitch",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": null,
         "joystick": null
@@ -3913,7 +3913,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "HMD_Roll",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": null,
         "joystick": null
@@ -3952,7 +3952,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "enter",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "a",
         "joystick": null
@@ -3965,7 +3965,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": null
@@ -3978,7 +3978,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "mwheel_up",
+        "keyboard": " ",
         "mouse": "mwheel_up",
         "xboxpad": "dpad_up",
         "joystick": null
@@ -3991,7 +3991,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "mwheel_down",
+        "keyboard": " ",
         "mouse": "mwheel_down",
         "xboxpad": "dpad_down",
         "joystick": null
@@ -4004,7 +4004,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "mwheel_up",
+        "keyboard": " ",
         "mouse": "mwheel_up",
         "xboxpad": null,
         "joystick": null
@@ -4017,7 +4017,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "mwheel_down",
+        "keyboard": " ",
         "mouse": "mwheel_down",
         "xboxpad": null,
         "joystick": null
@@ -4052,11 +4052,11 @@
     "v_eject": {
       "action_name": "v_eject",
       "action_map_name": "player",
-      "activation_mode": "press",
+      "activation_mode": "double_tap",
       "label": null,
       "description": null,
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+l",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -4065,11 +4065,11 @@
     "v_eject_cinematic": {
       "action_name": "v_eject_cinematic",
       "action_map_name": "player",
-      "activation_mode": null,
+      "activation_mode": "double_tap",
       "label": null,
       "description": null,
       "device": {
-        "keyboard": " ",
+        "keyboard": "lalt+l",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -4082,7 +4082,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "rctrl+insert",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": null
@@ -4136,7 +4136,7 @@
       "label": null,
       "description": "Roll Left (while Prone)",
       "device": {
-        "keyboard": null,
+        "keyboard": "a",
         "mouse": null,
         "xboxpad": null,
         "joystick": " "
@@ -4149,7 +4149,7 @@
       "label": null,
       "description": "Roll Right (while Prone)",
       "device": {
-        "keyboard": null,
+        "keyboard": "d",
         "mouse": null,
         "xboxpad": null,
         "joystick": " "
@@ -4191,7 +4191,7 @@
       "description": "View Left/Right",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "thumbrx",
         "joystick": " "
       }
@@ -4243,7 +4243,7 @@
       "description": "View Up/Down",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "thumbry",
         "joystick": " "
       }
@@ -4295,7 +4295,7 @@
       "description": "Pitch Up/Down",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": " ",
         "joystick": " "
       }
@@ -4334,7 +4334,7 @@
       "description": "Yaw Left/Right",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": " ",
         "joystick": " "
       }
@@ -4373,7 +4373,7 @@
       "description": "Roll Left/Right",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "shoulderl+thumblx",
         "joystick": " "
       }
@@ -4412,7 +4412,7 @@
       "description": "Strafe Up/Down",
       "device": {
         "keyboard": " ",
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "shoulderl+thumbry",
         "joystick": " "
       }
@@ -4451,7 +4451,7 @@
       "description": "Strafe Left/Right",
       "device": {
         "keyboard": " ",
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "thumblx",
         "joystick": " "
       }
@@ -4543,7 +4543,7 @@
       "label": null,
       "description": "Exit seat",
       "device": {
-        "keyboard": "h",
+        "keyboard": "lalt+f",
         "mouse": null,
         "xboxpad": null,
         "joystick": " "
@@ -4556,7 +4556,7 @@
       "label": null,
       "description": "Horn",
       "device": {
-        "keyboard": "capslock",
+        "keyboard": "c",
         "mouse": null,
         "xboxpad": "b",
         "joystick": "button8"
@@ -4582,7 +4582,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": "f3",
         "mouse": null,
         "xboxpad": "",
         "joystick": null
@@ -4648,7 +4648,7 @@
       "description": "Look left / right",
       "device": {
         "keyboard": null,
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": "thumbrx",
         "joystick": "x"
       }
@@ -4660,7 +4660,7 @@
       "label": null,
       "description": "Look up / down",
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "thumbry",
         "joystick": "y"
@@ -4673,7 +4673,7 @@
       "label": null,
       "description": "Look behind",
       "device": {
-        "keyboard": " ",
+        "keyboard": "z",
         "mouse": null,
         "xboxpad": " ",
         "joystick": " "
@@ -4686,7 +4686,7 @@
       "label": null,
       "description": null,
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "",
         "joystick": null
@@ -4726,7 +4726,7 @@
       "description": null,
       "device": {
         "keyboard": "HMD_Yaw",
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": null,
         "joystick": null
       }
@@ -4739,7 +4739,7 @@
       "description": null,
       "device": {
         "keyboard": "HMD_Pitch",
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": null,
         "joystick": null
       }
@@ -4752,7 +4752,7 @@
       "description": null,
       "device": {
         "keyboard": "HMD_Roll",
-        "mouse": null,
+        "mouse": " ",
         "xboxpad": null,
         "joystick": null
       }
@@ -4922,7 +4922,7 @@
       "label": null,
       "description": "Turn Left / Right",
       "device": {
-        "keyboard": null,
+        "keyboard": " ",
         "mouse": " ",
         "xboxpad": " ",
         "joystick": "rotz"
@@ -4961,7 +4961,7 @@
       "label": null,
       "description": "Brake",
       "device": {
-        "keyboard": "space",
+        "keyboard": "x",
         "mouse": null,
         "xboxpad": "b",
         "joystick": "button7"
@@ -5346,7 +5346,7 @@
       "label": null,
       "description": "Spectator Camera Rotate Yaw",
       "device": {
-        "keyboard": "maxis_x",
+        "keyboard": " ",
         "mouse": "maxis_x",
         "xboxpad": "",
         "joystick": "x"
@@ -5360,7 +5360,7 @@
       "description": "Spectator Camera Rotate Pitch",
       "device": {
         "keyboard": "maxis_y",
-        "mouse": "maxis_y",
+        "mouse": " ",
         "xboxpad": "",
         "joystick": "y"
       }
@@ -5372,7 +5372,7 @@
       "label": null,
       "description": "Spectator Camera Rotate Yaw",
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "thumbrx",
         "joystick": "x"
@@ -5385,7 +5385,7 @@
       "label": null,
       "description": "Spectator Camera Rotate Pitch",
       "device": {
-        "keyboard": "",
+        "keyboard": " ",
         "mouse": null,
         "xboxpad": "thumbry",
         "joystick": "y"
@@ -5424,7 +5424,7 @@
       "label": null,
       "description": "Spectator Camera Mode (Next)",
       "device": {
-        "keyboard": null,
+        "keyboard": "f4",
         "mouse": null,
         "xboxpad": "a",
         "joystick": " "
@@ -6115,7 +6115,7 @@
       "label": null,
       "description": "Chat Window Focus",
       "device": {
-        "keyboard": null,
+        "keyboard": "enter",
         "mouse": null,
         "xboxpad": null,
         "joystick": null
@@ -7125,7 +7125,7 @@
       "description": "[PH]\u00a0Focus",
       "device": {
         "keyboard": "",
-        "mouse": "mouse3",
+        "mouse": "mouse2",
         "xboxpad": "triggerl_btn",
         "joystick": "button7"
       }
