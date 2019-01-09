@@ -73,10 +73,13 @@ def parse_layout(file):
 
         action_map_name = child.attrib['name']
 
+        if action_map_name not in bindings:
+            continue
+
         for action in child:
             action_name = action.attrib['name']
 
-            if action_name not in bindings:
+            if action_name not in bindings[action_map_name]:
                 continue
 
             for rebind in action:
