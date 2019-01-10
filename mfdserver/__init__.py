@@ -33,15 +33,15 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    # register the database commands
-    from mfdserver import db
-    db.init_app(app)
+    @app.route('/')
+    def hello():
+        return 'Hello you!'
 
-    from mfdserver import hello, mouse
+    from mfdserver import hello, screen
 
     # apply the blueprints to the app
     app.register_blueprint(hello.bp)
-    app.register_blueprint(mouse.bp)
+    # app.register_blueprint(mouse.bp)
 
     # make url_for('index') == url_for('blog.index')
     app.add_url_rule('/', endpoint='index')
