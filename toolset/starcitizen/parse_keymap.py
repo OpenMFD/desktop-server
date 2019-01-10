@@ -1,28 +1,31 @@
 import json
 import xml.etree.ElementTree
 
-# Load up the language strings
-
-lang = {}
-bindings = {}
-
-
 def run():
-    parse_lang()
-    parse_default_profile()
+    lang = parse_lang()
 
-    parse_layout('data/layout_keyboard_advanced.xml')
-    write_bindings()
+    bindings = parse_default_profile(lang)
+    bindings = parse_layout(bindings, 'data/layout_keyboard_advanced.xml')
+    bindings = flatten(bindings)
+
+    write_bindings(bindings)
+
+    print("Done. Written to bindings.json")
 
 
 def parse_lang():
+    lang = {}
+
     with open('data/en.ini', encoding='utf-8-sig') as fp:
         for line in fp:
             parsed_string = line.split('=', 1)
             lang[parsed_string[0].strip()] = parsed_string[1].strip()
 
+    return lang
 
-def parse_default_profile():
+
+def parse_default_profile(lang):
+    bindings = {}
     root = xml.etree.ElementTree.parse('data/defaultProfile.xml').getroot()
 
     for child in root:
@@ -63,8 +66,10 @@ def parse_default_profile():
                 }
             }
 
+    return bindings
 
-def parse_layout(file):
+
+def parse_layout(bindings, file):
     root = xml.etree.ElementTree.parse(file).getroot()
 
     for child in root:
@@ -92,10 +97,12 @@ def parse_layout(file):
                 if activation_mode is not None:
                     bindings[action_map_name][action_name]['activation_mode'] = activation_mode
 
+    return bindings
 
-def write_bindings():
+
+def write_bindings(bindings):
     with open('bindings.json', 'w') as fp:
-        json.dump(bindings, fp)
+        json.dump(bindings, fp, indent="  ")
 
 
 def get_key_if_exists(needle, haystack):
@@ -103,6 +110,16 @@ def get_key_if_exists(needle, haystack):
         return haystack[needle]
 
     return None
+
+
+def flatten(bindings):
+    flat = {}
+
+    for group_name, binding_group in iter(bindings.items()):
+        for binding_name, binding in iter(binding_group.items()):
+            flat[group_name + "." + binding_name] = binding
+
+    return flat
 
 
 run()
