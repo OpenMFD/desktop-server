@@ -7,7 +7,7 @@ import keyboard
 with open(os.path.abspath(os.path.dirname(__file__) + "/../../toolset/starcitizen") + '/bindings.json') as f:
     data = json.load(f)
 
-starcitien_keybinding_map = {
+starcitizen_keybinding_map = {
     '0': '0',
     '1': '1',
     '2': '2',
@@ -134,7 +134,7 @@ def run_action(name):
     hotkey = ""
 
     for key in keys_to_run:
-        key = starcitien_keybinding_map[key.lower()]
+        key = starcitizen_keybinding_map[key.lower()]
 
         if hotkey != "":
             hotkey += "+"
@@ -149,13 +149,6 @@ def run_action(name):
         if activation_mode == "double_tap":
             time.sleep(0.1)
             keyboard.press_and_release(hotkey)
-
-    if activation_mode == "delayed_press":
-        for i in range(3):
-            keyboard.press(hotkey)
-            time.sleep(0.1)
-
-        keyboard.release(hotkey)
 
     if activation_mode == "delayed_press":
         for i in range(3):
