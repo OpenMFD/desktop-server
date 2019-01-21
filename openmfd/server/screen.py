@@ -1,5 +1,6 @@
-from mfdserver import socketio
-from mfdserver.events import Events
+from openmfd.server import socketio
+from openmfd.server.events import Events
+from flask_socketio import send, emit
 
 
 @socketio.on(Events.CONNECT.value)
@@ -24,8 +25,10 @@ def leave_screen(data):
 
 @socketio.on(Events.RUN_ACTION.value)
 def run_action(data):
-    from mfdserver.actions.runner import run_action as exec_action
+    from openmfd.server.actions.runner import run_action as exec_action
 
     print('A client requested to run an action', data)
 
     exec_action(data['name'])
+
+    send('done')

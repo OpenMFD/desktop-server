@@ -9,8 +9,8 @@ reason macOS is supported is because it makes life easier for me as I'm building
 
 ## Running for development purposes
 
-Note: This assumes you have at least Python 3.7 installed. If your Python3 binary is separate (such as `python3` update 
-the first command accordingly)
+Note: This assumes you have Python 3.6 installed, there are bugs in dependencies that prevent this from working with 3.7. 
+If your Python3 binary is separate (such as `python3` update the first command accordingly)
 
 ### On macOS/Linux:
 
@@ -24,6 +24,7 @@ Active the environment:
 
 ```bash
 $ source venv/bin/activate
+$ export PYTHONPATH=`pwd`
 ```
 
 Install dependencies:

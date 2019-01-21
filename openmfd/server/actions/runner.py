@@ -4,7 +4,7 @@ import time
 
 import keyboard
 
-with open(os.path.abspath(os.path.dirname(__file__) + "/../../toolset/starcitizen") + '/bindings.json') as f:
+with open(os.path.abspath(os.path.dirname(__file__) + "/../../../toolset/starcitizen") + '/bindings.json') as f:
     data = json.load(f)
 
 starcitizen_keybinding_map = {
